@@ -1,0 +1,32 @@
+/* Base Styles (Reset, Fonts) */
+@import url('modules/base.css');
+
+/* Typography (Headings, Text Utilities, Colors) */
+@import url('modules/typography.css');
+
+/* Utilities (Backgrounds, Spacing, Layout Helpers) */
+@import url('modules/utilities.css');
+
+/* Buttons & Links */
+@import url('modules/buttons-links.css');
+
+/* Forms */
+@import url('modules/forms.css');
+
+/* Navigation (Breadcrumbs, Frame, Menu) */
+@import url('modules/navigation.css');
+
+/* Layout Components (Preloader, Scrollbar, Cursor, Hidden) */
+@import url('modules/layout-components.css');
+
+/* Content Sections (Banner, About, Services, Team, Blog, Portfolio) */
+@import url('modules/content-sections.css');
+
+/* Decorative Elements (Circle Text, Lines, Dodecahedron) */
+@import url('modules/decorative.css');
+
+/* Effects & Transitions (Accordion, Price, 404, Images, Page Transitions) */
+@import url('modules/effects.css');
+
+/* Custom UTOO Brand Styles */
+@import url('modules/custom.css');

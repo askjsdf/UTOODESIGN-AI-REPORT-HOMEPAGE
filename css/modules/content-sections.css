@@ -1,0 +1,2631 @@
+/* -------------------------------------------
+
+banner
+
+------------------------------------------- */
+.mil-banner {
+  height: 100vh;
+}
+.mil-banner .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.mil-banner .mil-banner-content {
+  width: 100%;
+  padding-bottom: 120px;
+  position: relative;
+}
+@media screen and (max-width: 992px) {
+  .mil-banner .mil-banner-content {
+    padding-bottom: 90px;
+  }
+}
+.mil-banner .mil-lines-place {
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 120px);
+}
+
+.mil-inner-banner .mil-banner-content {
+  padding: 150px 0 0 0;
+}
+@media screen and (max-width: 1200px) {
+  .mil-inner-banner .mil-banner-content {
+    padding: 180px 0 0 0;
+  }
+}
+
+.mil-banner-personal {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.mil-banner-personal .mil-banner-content {
+  position: relative;
+  padding-top: 90px;
+}
+@media screen and (max-width: 992px) {
+  .mil-banner-personal .mil-banner-content {
+    padding-top: 180px;
+  }
+}
+.mil-banner-personal .mil-banner-content .mil-personal-text {
+  margin-bottom: 300px;
+}
+@media screen and (max-width: 992px) {
+  .mil-banner-personal .mil-banner-content .mil-personal-text {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+}
+.mil-banner-personal .mil-banner-content .mil-banner-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 60px 0 90px;
+  background-color: rgb(255, 255, 255);
+  height: 180px;
+  position: absolute;
+  top: calc(100vh - 180px);
+  left: 0;
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  .mil-banner-personal .mil-banner-content .mil-banner-panel {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding: 60px 30px;
+  }
+  .mil-banner-personal .mil-banner-content .mil-banner-panel h5 {
+    margin-bottom: 60px;
+    text-align: center;
+    width: 80%;
+  }
+}
+.mil-banner-personal .mil-banner-content .mil-banner-panel .mil-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.mil-banner-personal .mil-banner-content .mil-banner-panel .mil-right .mil-social-frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30px;
+  padding: 0 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 70px;
+  border-radius: 70px;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-banner-personal .mil-banner-content .mil-banner-panel .mil-right .mil-social-frame:hover {
+  -webkit-transform: scale(1.015);
+          transform: scale(1.015);
+}
+@media screen and (max-width: 992px) {
+  .mil-banner-personal .mil-banner-content .mil-banner-panel .mil-right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mil-banner-personal .mil-banner-content .mil-banner-panel .mil-right .mil-social-frame {
+    margin-right: 0;
+    margin-bottom: 30px;
+    height: 60px;
+  }
+}
+.mil-banner-personal .mil-banner-content .mil-banner-panel .mil-button {
+  margin: 0 !important;
+}
+@media screen and (max-width: 992px) {
+  .mil-banner-personal .mil-banner-content .mil-banner-panel {
+    bottom: 0;
+    top: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mil-banner-personal .mil-banner-content .mil-banner-panel {
+    position: static;
+    margin-bottom: 90px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .mil-banner-personal {
+    height: auto;
+  }
+}
+
+.mil-portrait-frame {
+  position: relative;
+}
+.mil-portrait-frame img {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.mil-portrait-frame .mil-nimbus {
+  background: radial-gradient(50% 50% at 50% 50%, #1291F6 0%, rgba(250, 168, 69, 0) 100%);
+  width: 100%;
+  padding-bottom: 100%;
+  position: absolute;
+  opacity: 0.6;
+}
+@media screen and (max-width: 768px) {
+  .mil-portrait-frame {
+    height: 400px;
+  }
+  .mil-portrait-frame img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+  }
+}
+
+/* -------------------------------------------
+
+circle text
+
+------------------------------------------- */
+.mil-circle-text {
+  position: absolute;
+  right: 0;
+  bottom: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 140px;
+  height: 140px;
+}
+.mil-circle-text .mil-ct-svg {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  width: 140px;
+  height: 140px;
+}
+.mil-circle-text .mil-ct-svg text {
+  fill: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-circle-text .mil-button {
+  position: absolute;
+}
+.mil-circle-text:hover svg text {
+  fill: rgb(255, 255, 255);
+}
+@media screen and (max-width: 992px) {
+  .mil-circle-text {
+    display: none;
+  }
+}
+
+/* -------------------------------------------
+
+lines
+
+------------------------------------------- */
+@-webkit-keyframes move {
+  from {
+    -webkit-transform: translateY(-75px);
+            transform: translateY(-75px);
+  }
+  50% {
+    -webkit-transform: translateY(75px);
+            transform: translateY(75px);
+  }
+  to {
+    -webkit-transform: translateY(-75px);
+            transform: translateY(-75px);
+  }
+}
+@keyframes move {
+  from {
+    -webkit-transform: translateY(-75px);
+            transform: translateY(-75px);
+  }
+  50% {
+    -webkit-transform: translateY(75px);
+            transform: translateY(75px);
+  }
+  to {
+    -webkit-transform: translateY(-75px);
+            transform: translateY(-75px);
+  }
+}
+.mil-lines-place .mil-lines {
+  opacity: 0.05;
+  pointer-events: none;
+}
+@media screen and (max-width: 992px) {
+  .mil-lines-place .mil-lines {
+    display: none;
+  }
+}
+.mil-lines-place .mil-lines path, .mil-lines-place .mil-lines rect, .mil-lines-place .mil-lines line {
+  stroke: rgb(0, 0, 0);
+}
+.mil-lines-place .mil-lines .mil-move {
+  -webkit-animation: move 10s linear infinite;
+          animation: move 10s linear infinite;
+}
+.mil-lines-place.mil-light .mil-lines {
+  opacity: 0.2;
+}
+.mil-lines-place.mil-light .mil-lines path, .mil-lines-place.mil-light .mil-lines rect, .mil-lines-place.mil-light .mil-lines line {
+  stroke: rgb(255, 255, 255);
+}
+
+/* -------------------------------------------
+
+dodecahedron
+
+------------------------------------------- */
+.mil-animation-frame {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  -webkit-animation: jump 10s linear infinite;
+          animation: jump 10s linear infinite;
+  pointer-events: none;
+}
+
+.mil-animation {
+  position: absolute;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.mil-position-1 {
+  top: 100px;
+  right: 100px;
+}
+.mil-position-1 .mil-pentagon div {
+  border-top: 0.1px solid rgb(255, 255, 255);
+}
+
+.mil-position-2 {
+  top: -60px;
+  left: 15%;
+}
+.mil-position-2 .mil-pentagon div {
+  border-top: 1px solid rgb(255, 255, 255);
+}
+.mil-position-2 .mil-dodecahedron {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+@media screen and (max-width: 1400px) {
+  .mil-position-2 {
+    display: none;
+  }
+}
+
+.mil-position-3 {
+  bottom: -100px;
+  right: 35%;
+}
+.mil-position-3 .mil-pentagon div {
+  border-top: 1px solid rgb(255, 255, 255);
+}
+.mil-position-3 .mil-dodecahedron {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+@media screen and (max-width: 1400px) {
+  .mil-position-3 {
+    display: none;
+  }
+}
+
+.mil-position-4 {
+  top: -60px;
+  right: 20%;
+}
+.mil-position-4 .mil-pentagon div {
+  border-top: 0.1px solid rgb(255, 255, 255);
+}
+.mil-position-4 .mil-dodecahedron {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+@media screen and (max-width: 1400px) {
+  .mil-position-4 {
+    display: none;
+  }
+}
+.mil-position-4.mil-dark .mil-pentagon div {
+  border-top: 0.1px solid rgb(0, 0, 0);
+}
+
+.mil-dodecahedron {
+  position: relative;
+  left: 100px;
+  top: 40px;
+  width: 100px;
+  height: 223px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-animation: rotate 100s infinite linear;
+          animation: rotate 100s infinite linear;
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
+            transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
+  }
+  to {
+    -webkit-transform: rotateX(360deg) rotateY(0deg) rotateZ(-360deg);
+            transform: rotateX(360deg) rotateY(0deg) rotateZ(-360deg);
+  }
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
+            transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
+  }
+  to {
+    -webkit-transform: rotateX(360deg) rotateY(0deg) rotateZ(-360deg);
+            transform: rotateX(360deg) rotateY(0deg) rotateZ(-360deg);
+  }
+}
+
+.mil-pentagon {
+  position: absolute;
+  width: 100px;
+}
+.mil-pentagon:nth-child(1) {
+  -webkit-transform: rotateY(0.2turn) translateZ(69px) rotateX(26.5deg);
+          transform: rotateY(0.2turn) translateZ(69px) rotateX(26.5deg);
+}
+.mil-pentagon:nth-child(6) {
+  bottom: 0;
+  -webkit-transform: rotateY(0.2turn) translateZ(-69px) rotateX(206.5deg);
+          transform: rotateY(0.2turn) translateZ(-69px) rotateX(206.5deg);
+}
+.mil-pentagon:nth-child(2) {
+  -webkit-transform: rotateY(0.4turn) translateZ(69px) rotateX(26.5deg);
+          transform: rotateY(0.4turn) translateZ(69px) rotateX(26.5deg);
+}
+.mil-pentagon:nth-child(7) {
+  bottom: 0;
+  -webkit-transform: rotateY(0.4turn) translateZ(-69px) rotateX(206.5deg);
+          transform: rotateY(0.4turn) translateZ(-69px) rotateX(206.5deg);
+}
+.mil-pentagon:nth-child(3) {
+  -webkit-transform: rotateY(0.6turn) translateZ(69px) rotateX(26.5deg);
+          transform: rotateY(0.6turn) translateZ(69px) rotateX(26.5deg);
+}
+.mil-pentagon:nth-child(8) {
+  bottom: 0;
+  -webkit-transform: rotateY(0.6turn) translateZ(-69px) rotateX(206.5deg);
+          transform: rotateY(0.6turn) translateZ(-69px) rotateX(206.5deg);
+}
+.mil-pentagon:nth-child(4) {
+  -webkit-transform: rotateY(0.8turn) translateZ(69px) rotateX(26.5deg);
+          transform: rotateY(0.8turn) translateZ(69px) rotateX(26.5deg);
+}
+.mil-pentagon:nth-child(9) {
+  bottom: 0;
+  -webkit-transform: rotateY(0.8turn) translateZ(-69px) rotateX(206.5deg);
+          transform: rotateY(0.8turn) translateZ(-69px) rotateX(206.5deg);
+}
+.mil-pentagon:nth-child(5) {
+  -webkit-transform: rotateY(1turn) translateZ(69px) rotateX(26.5deg);
+          transform: rotateY(1turn) translateZ(69px) rotateX(26.5deg);
+}
+.mil-pentagon:nth-child(10) {
+  bottom: 0;
+  -webkit-transform: rotateY(1turn) translateZ(-69px) rotateX(206.5deg);
+          transform: rotateY(1turn) translateZ(-69px) rotateX(206.5deg);
+}
+.mil-pentagon:nth-child(11) {
+  -webkit-transform: translateZ(69px) rotateX(-90deg);
+          transform: translateZ(69px) rotateX(-90deg);
+}
+.mil-pentagon:nth-child(12) {
+  bottom: 0;
+  -webkit-transform: translateZ(-69px) rotateX(90deg);
+          transform: translateZ(-69px) rotateX(90deg);
+}
+.mil-pentagon div {
+  position: absolute;
+  width: 100px;
+  height: 69px;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+}
+.mil-pentagon div:nth-child(1) {
+  -webkit-transform: rotate(0.2turn);
+          transform: rotate(0.2turn);
+}
+.mil-pentagon div:nth-child(2) {
+  -webkit-transform: rotate(0.4turn);
+          transform: rotate(0.4turn);
+}
+.mil-pentagon div:nth-child(3) {
+  -webkit-transform: rotate(0.6turn);
+          transform: rotate(0.6turn);
+}
+.mil-pentagon div:nth-child(4) {
+  -webkit-transform: rotate(0.8turn);
+          transform: rotate(0.8turn);
+}
+.mil-pentagon div:nth-child(5) {
+  -webkit-transform: rotate(1turn);
+          transform: rotate(1turn);
+}
+
+@-webkit-keyframes jump {
+  0% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  50% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  100% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+}
+
+@keyframes jump {
+  0% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  50% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  100% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+}
+/* -------------------------------------------
+
+about
+
+------------------------------------------- */
+.mil-about-quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mil-about-quote .mil-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: relative;
+}
+.mil-about-quote .mil-avatar:after {
+  content: ' " ';
+  color: rgb(0, 0, 0);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #1291F6;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 36px;
+}
+.mil-about-quote .mil-avatar img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.mil-about-quote .mil-quote {
+  padding-left: 30px;
+  width: calc(100% - 90px);
+}
+@media screen and (max-width: 992px) {
+  .mil-about-quote .mil-avatar {
+    width: 70px;
+    height: 70px;
+  }
+  .mil-about-quote .mil-avatar:after {
+    padding-top: 7px;
+    width: 25px;
+    height: 25px;
+    font-size: 24px;
+  }
+  .mil-about-quote .mil-quote {
+    font-size: 16px;
+    padding-left: 30px;
+    width: calc(100% - 70px);
+  }
+}
+
+.mil-about-photo {
+  position: relative;
+}
+.mil-about-photo .mil-lines-place {
+  position: absolute;
+  top: -120px;
+  left: -27%;
+}
+
+/* -------------------------------------------
+
+partners
+
+------------------------------------------- */
+.mil-infinite-show .swiper-wrapper {
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.mil-partner-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+.mil-partner-frame img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* -------------------------------------------
+
+services
+
+------------------------------------------- */
+.mil-complex-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mil-complex-text .mil-button {
+  margin-left: 30px;
+}
+@media screen and (max-width: 768px) {
+  .mil-complex-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mil-complex-text .mil-button {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+}
+
+.mil-text-image {
+  height: 80px;
+  width: 250px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 70px;
+  margin-right: 30px;
+}
+.mil-text-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-text-image:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+@media screen and (max-width: 768px) {
+  .mil-text-image {
+    display: none;
+  }
+}
+
+.mil-service-card-sm {
+  position: relative;
+  display: block;
+  padding: 60px 30px;
+  height: 500px;
+}
+.mil-service-card-sm h5 {
+  margin-bottom: 30px;
+}
+.mil-service-card-sm h5 .mil-thin {
+  font-size: 0.85em;
+}
+.mil-service-card-sm p {
+  position: absolute;
+  top: 190px;
+  left: 30px;
+  right: 30px;
+  opacity: 0;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-service-card-sm .mil-button {
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+  -webkit-transform: scale(0.3);
+          transform: scale(0.3);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  opacity: 0.4;
+}
+.mil-service-card-sm:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background-color: #1291F6;
+  -webkit-transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-service-card-sm:hover p {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.mil-service-card-sm:hover .mil-button {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  opacity: 1;
+}
+.mil-service-card-sm:hover:before {
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  .mil-service-card-sm p {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .mil-service-card-sm .mil-button {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+    opacity: 1;
+  }
+}
+
+.mil-services-grid {
+  border-top: solid 1px rgba(255, 255, 255, 0.1);
+}
+.mil-services-grid .mil-services-grid-item {
+  border-right: solid 1px rgba(255, 255, 255, 0.1);
+}
+.mil-services-grid .mil-services-grid-item:first-child {
+  border-left: solid 1px rgba(255, 255, 255, 0.1);
+}
+@media screen and (max-width: 992px) {
+  .mil-services-grid {
+    padding-bottom: 90px;
+  }
+  .mil-services-grid .mil-services-grid-item {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+  }
+  .mil-services-grid .mil-services-grid-item:nth-child(3) {
+    border-left: solid 1px rgba(255, 255, 255, 0.1);
+  }
+}
+@media screen and (max-width: 768px) {
+  .mil-services-grid {
+    padding-bottom: 90px;
+  }
+  .mil-services-grid .mil-services-grid-item {
+    border-left: solid 1px rgba(255, 255, 255, 0.1);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+  }
+}
+
+.mil-service-card-lg {
+  display: block;
+}
+.mil-service-card-lg .mil-descr {
+  padding-right: 30px;
+}
+.mil-service-card-lg.mil-offset {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 992px) {
+  .mil-service-card-lg.mil-offset {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .mil-service-card-lg {
+    margin-bottom: 60px;
+  }
+}
+.mil-service-card-lg.mil-other-card {
+  overflow: hidden;
+  position: relative;
+  border: solid 1px rgb(229, 229, 229);
+  padding: 60px;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-service-card-lg.mil-other-card .mil-descr {
+  padding-right: 0;
+}
+.mil-service-card-lg.mil-other-card:hover {
+  background-color: #1291F6;
+}
+.mil-service-card-lg.mil-other-card:hover .mil-link svg {
+  background-color: rgb(255, 255, 255);
+}
+.mil-service-card-lg.mil-other-card:hover .mil-link svg path {
+  fill: #1291F6;
+}
+@media screen and (max-width: 1200px) {
+  .mil-service-card-lg.mil-other-card {
+    padding: 30px;
+  }
+}
+
+.mil-service-list li {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+  list-style-type: none;
+  padding: 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 12px;
+}
+.mil-service-list li:first-child {
+  border-top: solid 1px rgba(255, 255, 255, 0.1);
+}
+.mil-service-list.mil-light li {
+  color: rgba(255, 255, 255, 0.6);
+}
+.mil-service-list.mil-dark li {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+.mil-service-list.mil-dark li:first-child {
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+/* -------------------------------------------
+
+team
+
+------------------------------------------- */
+.mil-team-card {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 130%;
+}
+.mil-team-card:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background-color: #1291F6;
+  -webkit-transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-team-card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-team-card.mil-offset-card {
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+}
+@media screen and (max-width: 992px) {
+  .mil-team-card.mil-offset-card {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+.mil-team-card .mil-description {
+  opacity: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 60px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  pointer-events: none;
+  -webkit-transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-team-card .mil-description .mil-secrc-text {
+  opacity: 0;
+  -webkit-transform: translateY(15px);
+          transform: translateY(15px);
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.mil-team-card .mil-description .mil-secrc-text a {
+  color: rgb(255, 255, 255);
+  -webkit-transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-team-card .mil-description .mil-secrc-text a:hover {
+  color: #1291F6;
+}
+.mil-team-card:hover img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.mil-team-card:hover:after {
+  width: 100%;
+}
+.mil-team-card:hover .mil-description {
+  opacity: 1;
+  pointer-events: all;
+}
+.mil-team-card:hover .mil-description .mil-secrc-text {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.mil-team-list {
+  position: relative;
+}
+.mil-team-list .mil-lines-place {
+  position: absolute;
+  top: -120px;
+  left: -22.5%;
+}
+
+/* -------------------------------------------
+
+social icons
+
+------------------------------------------- */
+.mil-social-icons {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.mil-social-icons.mil-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.mil-social-icons li {
+  list-style-type: none;
+  margin-right: 15px;
+}
+.mil-social-icons li:last-child {
+  margin-right: 0;
+}
+.mil-social-icons li a {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-social-icons li a:hover {
+  color: #1291F6;
+}
+.mil-social-icons.mil-dark li a {
+  color: rgb(0, 0, 0);
+}
+.mil-social-icons.mil-dark li a:hover {
+  color: #1291F6;
+}
+
+/* -------------------------------------------
+
+revievs
+
+------------------------------------------- */
+.mil-revi-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (max-width: 992px) {
+  .mil-revi-pagination {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.mil-revi-pagination .swiper-pagination-bullet {
+  padding: 0;
+  width: 110px;
+  height: 110px;
+  padding: 10px;
+  opacity: 1;
+  border: none;
+  background-color: transparent;
+  margin: 0 !important;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1) !important;
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1) !important;
+}
+@media screen and (max-width: 992px) {
+  .mil-revi-pagination .swiper-pagination-bullet {
+    width: 90px;
+    height: 90px;
+  }
+}
+.mil-revi-pagination .swiper-pagination-bullet:nth-child(2n) {
+  margin-top: 30px !important;
+}
+@media screen and (max-width: 992px) {
+  .mil-revi-pagination .swiper-pagination-bullet:nth-child(2n) {
+    margin-top: 0 !important;
+  }
+}
+.mil-revi-pagination .swiper-pagination-bullet:hover {
+  -webkit-box-shadow: inset 0 0 0 4px rgb(255, 255, 255);
+          box-shadow: inset 0 0 0 4px rgb(255, 255, 255);
+}
+.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot {
+  background-color: red;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: top;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1) !important;
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1) !important;
+}
+@media screen and (max-width: 992px) {
+  .mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot {
+    width: 70px;
+    height: 70px;
+  }
+}
+.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-1 {
+  background-image: url(../../img/logo/McKinsey.png);
+}
+.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-2 {
+  background-image: url(../../img/logo/linkedin.png);
+}
+.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-3 {
+  background-image: url(../../img/logo/Forrester.png);
+}
+.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-4 {
+  background-image: url(../../img/logo/Edelman.png);
+}
+.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-5 {
+  background-image: url("../../img/logo/bain company.png");
+}
+.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-6 {
+  background-image: url(../../img/logo/harvard.png);
+}
+.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-7 {
+  background-image: url("../../img/logo/ocean tomo.png");
+}
+.mil-revi-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  -webkit-box-shadow: inset 0 0 0 4px #1291F6;
+          box-shadow: inset 0 0 0 4px #1291F6;
+}
+
+.mil-quote-icon {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+.mil-quote-icon path {
+  fill: #1291F6;
+}
+
+.mil-slider-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.mil-slider-nav .mil-slider-arrow {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-slider-nav .mil-slider-arrow svg path {
+  fill: #1291F6;
+}
+.mil-slider-nav .mil-slider-arrow.mil-prev {
+  margin-right: 10px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.mil-slider-nav .mil-slider-arrow.swiper-button-disabled {
+  opacity: 0.1;
+  cursor: not-allowed;
+}
+.mil-slider-nav .mil-slider-arrow:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+.mil-slider-nav .mil-slider-arrow:hover.mil-prev {
+  -webkit-transform: rotate(180deg) scale(1.15);
+          transform: rotate(180deg) scale(1.15);
+}
+.mil-slider-nav.mil-reviews-nav {
+  position: absolute;
+  top: 160px;
+  left: 0;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (max-width: 992px) {
+  .mil-slider-nav.mil-reviews-nav {
+    top: 0;
+  }
+}
+.mil-slider-nav.mil-soft .mil-slider-arrow {
+  background-color: rgb(229, 229, 229);
+}
+.mil-slider-nav.mil-soft .mil-slider-arrow svg path {
+  fill: rgb(0, 0, 0);
+}
+
+/* -------------------------------------------
+
+blog
+
+------------------------------------------- */
+.mil-blog-card {
+  display: block;
+}
+.mil-blog-card .mil-cover-frame {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 65%;
+  margin-bottom: 30px;
+}
+.mil-blog-card .mil-cover-frame img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-blog-card .mil-post-descr {
+  padding: 30px 30px 0 0;
+}
+.mil-blog-card .mil-post-descr .mil-post-text {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.mil-blog-card:hover .mil-cover-frame img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.mil-blog-card.mil-blog-card-hori {
+  padding-top: 60px;
+  border-top: solid 1px rgb(229, 229, 229);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mil-blog-card.mil-blog-card-hori .mil-cover-frame {
+  margin-bottom: 0;
+  width: 450px;
+  padding-bottom: 27%;
+}
+.mil-blog-card.mil-blog-card-hori .mil-post-descr {
+  width: calc(100% - 450px);
+  padding: 0;
+  padding-left: 60px;
+}
+@media screen and (max-width: 992px) {
+  .mil-blog-card.mil-blog-card-hori {
+    display: block;
+    padding-top: 0;
+    border: none;
+  }
+  .mil-blog-card.mil-blog-card-hori .mil-cover-frame {
+    width: 100%;
+    padding-bottom: 65%;
+    margin-bottom: 30px;
+  }
+  .mil-blog-card.mil-blog-card-hori .mil-post-descr {
+    width: 100%;
+    padding: 30px 30px 0 0;
+  }
+}
+
+.mil-labels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+.mil-labels .mil-label {
+  margin-right: 15px;
+}
+.mil-labels .mil-label:last-child {
+  margin-right: 0;
+}
+
+.mil-pagination {
+  padding-top: 60px;
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.mil-pagination-btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.mil-pagination-btn.mil-active {
+  background-color: #1291F6;
+}
+
+.mil-category-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.mil-category-list li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.mil-category-list li:last-child {
+  margin-right: 0;
+}
+.mil-category-list li a {
+  height: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  padding: 0 20px;
+  border-radius: 40px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-category-list li a:hover {
+  background-color: rgb(229, 229, 229);
+}
+.mil-category-list li a.mil-active {
+  background-color: #1291F6;
+}
+@media screen and (max-width: 768px) {
+  .mil-category-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mil-category-list li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .mil-category-list li:last-child {
+    margin-bottom: 0;
+  }
+  .mil-category-list li a {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+/* -------------------------------------------
+
+footer
+
+------------------------------------------- */
+.mil-footer-menu {
+  margin-bottom: 120px;
+}
+.mil-footer-menu ul li {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+.mil-footer-menu ul li a {
+  display: block;
+  font-weight: 500;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.9);
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-footer-menu ul li a:hover {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+  color: #1291F6;
+}
+@media screen and (max-width: 768px) {
+  .mil-footer-menu ul li a {
+    font-size: 22px;
+  }
+}
+.mil-footer-menu ul li.mil-active a {
+  color: #1291F6;
+}
+.mil-footer-menu ul li.mil-active a:hover {
+  -webkit-transform: none;
+          transform: none;
+}
+@media screen and (max-width: 768px) {
+  .mil-footer-menu {
+    margin-bottom: 60px;
+  }
+}
+
+.mil-subscribe-form {
+  position: relative;
+  height: 70px;
+  width: 100%;
+}
+.mil-subscribe-form input {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 70px;
+  padding: 0 0 0 50px;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-subscribe-form input::-webkit-input-placeholder {
+  color: rgb(128, 128, 128);
+  font-family: "Outfit", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.mil-subscribe-form input::-moz-placeholder {
+  color: rgb(128, 128, 128);
+  font-family: "Outfit", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.mil-subscribe-form input:-ms-input-placeholder {
+  color: rgb(128, 128, 128);
+  font-family: "Outfit", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.mil-subscribe-form input::-ms-input-placeholder {
+  color: rgb(128, 128, 128);
+  font-family: "Outfit", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.mil-subscribe-form input::placeholder {
+  color: rgb(128, 128, 128);
+  font-family: "Outfit", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.mil-subscribe-form input:focus {
+  background-color: rgb(255, 255, 255);
+  outline: inherit;
+}
+.mil-subscribe-form input:hover {
+  background-color: rgb(255, 255, 255);
+}
+.mil-subscribe-form .mil-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.mil-subscribe-form.mil-subscribe-form-2 input {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* -------------------------------------------
+
+portfolio
+
+------------------------------------------- */
+.mil-portfolio-item {
+  display: block;
+}
+.mil-portfolio-item .mil-cover-frame {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.mil-portfolio-item .mil-cover-frame .mil-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mil-portfolio-item .mil-cover-frame .mil-cover img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-portfolio-item .mil-cover-frame.mil-vert {
+  padding-bottom: 130%;
+}
+.mil-portfolio-item .mil-cover-frame.mil-hori {
+  padding-bottom: 65%;
+}
+.mil-portfolio-item:hover .mil-cover-frame .mil-cover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.mil-portfolio-item.mil-slider-item .mil-cover-frame {
+  margin-bottom: 30px;
+  height: calc(100vh - 360px);
+}
+@media screen and (max-width: 992px) {
+  .mil-portfolio-item.mil-slider-item .mil-cover-frame {
+    height: auto;
+    padding-bottom: 100%;
+  }
+}
+.mil-portfolio-item.mil-slider-item .mil-descr {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 180px;
+  background-color: rgb(242, 242, 242);
+  padding: 0 60px;
+}
+@media screen and (max-width: 992px) {
+  .mil-portfolio-item.mil-slider-item .mil-descr {
+    padding: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: auto;
+  }
+  .mil-portfolio-item.mil-slider-item .mil-descr .mil-descr-text {
+    margin-bottom: 30px;
+  }
+}
+.mil-portfolio-item.mil-slider-item:hover .mil-cover-frame .mil-cover img {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.swiper-slide .mil-portfolio-item .mil-descr {
+  pointer-events: none;
+}
+.swiper-slide.swiper-slide-active .mil-portfolio-item .mil-descr {
+  pointer-events: all;
+}
+
+.mil-portfolio {
+  position: relative;
+}
+.mil-portfolio .mil-lines-place {
+  position: absolute;
+  left: 40.7%;
+}
+.mil-portfolio .mil-lines-place.mil-lines-long {
+  top: 1289px;
+}
+
+.mil-portfolio-slider-frame {
+  z-index: 0;
+  padding-top: 150px;
+}
+@media screen and (max-width: 992px) {
+  .mil-portfolio-slider-frame {
+    padding-top: 180px;
+  }
+}
+
+.mil-portfolio-nav {
+  background-color: rgb(242, 242, 242);
+  width: 100%;
+  padding: 0 60px;
+  height: 180px;
+  position: absolute;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.mil-portfolio-nav .mil-portfolio-btns-frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 15px;
+  height: 70px;
+  border-radius: 70px;
+  background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 992px) {
+  .mil-portfolio-nav {
+    position: static;
+    height: auto;
+    padding: 30px 0 90px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+  }
+  .mil-portfolio-nav .mil-portfolio-btns-frame {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+}
+
+.swiper-portfolio-pagination {
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0 15px;
+}
+
+.mil-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 120px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .mil-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding: 30px;
+  }
+}
+
+.mil-works-nav {
+  padding-top: 60px;
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mil-works-nav .mil-disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+@media screen and (max-width: 768px) {
+  .mil-works-nav {
+    padding-top: 0;
+    border-top: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mil-works-nav .mil-link {
+    display: none;
+  }
+  .mil-works-nav .mil-link:last-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/***************************
+
+map
+
+***************************/
+.mil-map-frame {
+  background-color: rgb(229, 229, 229);
+  pointer-events: all;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.mil-map-frame .mil-map {
+  position: absolute;
+  top: -25%;
+  left: -25%;
+  width: 150%;
+  height: 150%;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-map-frame .mil-map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* -------------------------------------------
+
+AI Dashboard Cards
+
+------------------------------------------- */
+
+/* Monitor Dashboard Container */
+.mil-monitor-dashboard {
+  position: relative;
+  overflow: visible;
+}
+
+/* Main Dashboard Card (Card A - Base) */
+.mil-dashboard-card.mil-card-main {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 50px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  width: 100%;
+}
+
+/* Extend card to right (for right-positioned cards) */
+.mil-dashboard-card.mil-card-extend-right {
+  width: 140%;
+  max-width: none;
+}
+
+/* Extend card to left (for left-positioned cards) */
+.mil-dashboard-card.mil-card-extend-left {
+  width: 130%;
+  max-width: none;
+  margin-left: -30%;
+}
+
+/* Card Header */
+.mil-card-header h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.mil-text-sm {
+  font-size: 14px;
+}
+
+.mil-dark-soft {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Platform Icons Row */
+.mil-platform-icons {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.mil-platform-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.mil-icon-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.mil-platform-icon span {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Chart Container */
+.mil-chart-container {
+  margin-bottom: 30px;
+}
+
+.mil-chart-label {
+  margin-bottom: 15px;
+}
+
+.mil-line-chart {
+  width: 100%;
+  height: 120px;
+  display: block;
+}
+
+/* Metrics Row */
+.mil-metrics-row {
+  display: flex;
+  gap: 40px;
+}
+
+.mil-metric-item {
+  flex: 1;
+}
+
+.mil-metric-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.mil-metric-label {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Alert Card (Card B - Floating) - Positioned at top right corner */
+.mil-dashboard-card.mil-card-alert {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  width: 340px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.35);
+  color: #ffffff;
+  animation: pulse-glow 3s ease-in-out infinite;
+  z-index: 10;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 8px 32px rgba(102, 126, 234, 0.35);
+  }
+  50% {
+    box-shadow: 0 8px 40px rgba(102, 126, 234, 0.5);
+  }
+}
+
+/* Alert Badge */
+.mil-alert-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.mil-badge-icon {
+  font-size: 14px;
+  animation: flash 1.5s ease-in-out infinite;
+}
+
+@keyframes flash {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+/* Alert Topic */
+.mil-alert-topic {
+  margin-bottom: 20px;
+}
+
+.mil-topic-label {
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.mil-topic-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Progress Items */
+.mil-progress-item {
+  margin-bottom: 15px;
+}
+
+.mil-progress-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.mil-progress-label {
+  opacity: 0.9;
+}
+
+.mil-progress-value {
+  font-weight: 600;
+}
+
+.mil-progress-bar {
+  height: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.mil-progress-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.6s ease;
+}
+
+.mil-progress-fill.mil-positive {
+  background: #4ade80;
+}
+
+.mil-progress-fill.mil-warning {
+  background: #1291F6;
+}
+
+/* Insight Button */
+.mil-insight-button {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  color: #667eea;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mil-insight-button:hover {
+  background: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.mil-insight-button svg {
+  transition: transform 0.3s ease;
+}
+
+.mil-insight-button:hover svg {
+  transform: translateX(4px);
+}
+
+/* Responsive */
+@media screen and (max-width: 1400px) {
+  .mil-dashboard-card.mil-card-main {
+    width: 130%;
+  }
+
+  .mil-dashboard-card.mil-card-alert {
+    right: 30px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .mil-dashboard-card.mil-card-main {
+    width: 120%;
+  }
+
+  .mil-dashboard-card.mil-card-alert {
+    right: 20px;
+    width: 280px;
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .mil-dashboard-card.mil-card-main {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .mil-dashboard-card.mil-card-alert {
+    position: static;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .mil-platform-icons {
+    gap: 20px;
+  }
+
+  .mil-icon-circle {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mil-platform-icons {
+    gap: 15px;
+  }
+  
+  .mil-platform-icon span {
+    font-size: 11px;
+  }
+  
+  .mil-metrics-row {
+    gap: 20px;
+  }
+  
+  .mil-metric-value {
+    font-size: 24px;
+  }
+}
+
+
+/* Enhanced Dashboard Styles */
+
+/* Header Row */
+.mil-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.mil-status-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: rgba(76, 175, 80, 0.1);
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #4CAF50;
+}
+
+.mil-status-dot {
+  width: 8px;
+  height: 8px;
+  background: #4CAF50;
+  border-radius: 50%;
+  animation: pulse-dot 2s ease-in-out infinite;
+  box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+}
+
+@keyframes pulse-dot {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+  }
+  50% {
+    opacity: 0.6;
+    box-shadow: 0 0 0 4px rgba(76, 175, 80, 0);
+  }
+}
+
+/* Data Grid */
+.mil-data-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.mil-data-cell {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.mil-data-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+
+/* Number rolling animation containers */
+.mil-data-cell:nth-child(1) .mil-data-value,
+.mil-data-cell:nth-child(2) .mil-data-value,
+.mil-data-cell:nth-child(3) .mil-data-value {
+  overflow: hidden;
+  height: 34px;
+  position: relative;
+  color: transparent;
+}
+
+/* Number rolling animation for first data cell (12.5M+ -> 13.7M+ -> 15M+) */
+.mil-data-cell:nth-child(1) .mil-data-value::before {
+  content: '12.5M+\A 13.7M+\A 15M+\A 12.5M+';
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: pre;
+  color: #000000;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  animation: roll-numbers-1 12s ease-in-out infinite;
+}
+
+@keyframes roll-numbers-1 {
+  0%, 30% {
+    transform: translateY(0);
+  }
+  33.33%, 63.33% {
+    transform: translateY(-34px);
+  }
+  66.66%, 96.66% {
+    transform: translateY(-68px);
+  }
+  100% {
+    transform: translateY(-102px);
+  }
+}
+
+/* Number rolling animation for second data cell (847 -> 923 -> 1015) */
+.mil-data-cell:nth-child(2) .mil-data-value::before {
+  content: '847\A 923\A 1015\A 847';
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: pre;
+  color: #000000;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  animation: roll-numbers-2 12s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes roll-numbers-2 {
+  0%, 30% {
+    transform: translateY(0);
+  }
+  33.33%, 63.33% {
+    transform: translateY(-34px);
+  }
+  66.66%, 96.66% {
+    transform: translateY(-68px);
+  }
+  100% {
+    transform: translateY(-102px);
+  }
+}
+
+/* Number rolling animation for third data cell (23 -> 28 -> 35) */
+.mil-data-cell:nth-child(3) .mil-data-value::before {
+  content: '23\A 28\A 35\A 23';
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: pre;
+  color: #000000;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  animation: roll-numbers-3 12s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+@keyframes roll-numbers-3 {
+  0%, 30% {
+    transform: translateY(0);
+  }
+  33.33%, 63.33% {
+    transform: translateY(-34px);
+  }
+  66.66%, 96.66% {
+    transform: translateY(-68px);
+  }
+  100% {
+    transform: translateY(-102px);
+  }
+}
+
+.mil-data-label {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 8px;
+}
+
+.mil-data-change {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.mil-data-change.mil-positive {
+  color: #4CAF50;
+}
+
+.mil-data-change.mil-warning {
+  color: #1291F6;
+}
+
+.mil-data-change.mil-neutral {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* Platform Row */
+.mil-platform-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.mil-platform-item {
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+.mil-platform-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.mil-platform-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.mil-platform-logo {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.mil-platform-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.mil-platform-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.mil-platform-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mil-stat-number {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.mil-mini-bar {
+  height: 4px;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2px;
+  transition: width 0.6s ease;
+}
+
+/* Chart Section */
+.mil-chart-section {
+  padding: 25px;
+  background: #fafbfc;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+.mil-chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.mil-chart-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 4px;
+}
+
+.mil-chart-subtitle {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.mil-chart-legend {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.mil-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+}
+
+.mil-legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.mil-legend-dot.mil-orange {
+  background: #1291F6;
+}
+
+.mil-legend-dot.mil-purple {
+  background: #9C27B0;
+}
+
+.mil-legend-dot.mil-blue {
+  background: #2196F3;
+}
+
+.mil-time-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* Region Section */
+.mil-region-section {
+  padding: 25px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.mil-section-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.mil-region-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mil-region-bar-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mil-region-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mil-region-name {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+}
+
+.mil-region-percent {
+  font-size: 13px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.mil-region-bar-bg {
+  height: 8px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.mil-region-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-radius: 4px;
+  transition: width 0.8s ease;
+}
+
+/* Responsive Adjustments for Enhanced Dashboard */
+@media screen and (max-width: 1400px) {
+  .mil-data-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .mil-platform-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .mil-header-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .mil-data-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mil-platform-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mil-chart-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mil-data-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .mil-platform-row {
+    grid-template-columns: 1fr;
+  }
+
+  .mil-chart-section,
+  .mil-region-section {
+    padding: 20px;
+  }
+}
+
+/* -------------------------------------------
+
+Expert Gallery Vertical Scroll - Triple Column with Flip Cards
+
+------------------------------------------- */
+.mil-expert-gallery-triple {
+  position: relative;
+  overflow: hidden;
+}
+
+.mil-expert-column {
+  position: relative;
+  overflow: hidden;
+}
+
+.mil-expert-scroll-container {
+  width: 100%;
+}
+
+/* Slow scroll for column 1 - 55 seconds */
+.mil-scroll-slow {
+  animation: scrollUp 55s linear infinite;
+}
+
+/* Medium scroll for column 2 - 42 seconds */
+.mil-scroll-medium {
+  animation: scrollUp 42s linear infinite;
+}
+
+/* Fast scroll for column 3 - 32 seconds */
+.mil-scroll-fast {
+  animation: scrollUp 32s linear infinite;
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+/* Flip Card Container */
+.mil-expert-card-flip {
+  width: 100%;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.mil-flip-inner {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.mil-expert-card-flip:hover .mil-flip-inner {
+  transform: rotateY(180deg);
+}
+
+.mil-flip-front,
+.mil-flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 8px;
+}
+
+.mil-flip-front {
+  background: #ffffff;
+}
+
+.mil-flip-back {
+  background: #ffffff;
+  transform: rotateY(180deg);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+.mil-flip-back h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.mil-flip-back p {
+  margin: 0;
+}
+
+/* Gradient mask at bottom */
+.mil-expert-gallery-triple::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Gradient mask at top */
+.mil-expert-gallery-triple::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0));
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Extend gallery to the right */
+.mil-gallery-extend-right {
+  width: 130%;
+  max-width: none;
+}

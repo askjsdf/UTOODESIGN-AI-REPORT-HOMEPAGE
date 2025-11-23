@@ -1,0 +1,61 @@
+/* -------------------------------------------
+Base Styles - Reset, Fonts, Variables
+------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css);
+
+/* Reset */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 150%;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
+
+*::-moz-selection {
+  color: inherit;
+  background-color: transparent;
+}
+
+*::selection {
+  color: inherit;
+  background-color: transparent;
+}
+
+.mil-wrapper {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.container {
+  pointer-events: all;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+}
