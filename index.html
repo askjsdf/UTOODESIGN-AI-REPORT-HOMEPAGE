@@ -568,7 +568,14 @@
 
                                 <div class="mil-monitor-dashboard mil-mb-90">
                                     <!-- Card A: Global Monitor -->
-                                    <div class="mil-dashboard-card mil-card-main mil-card-extend-right mil-up">
+                                    <div class="mil-dashboard-card mil-card-main mil-card-extend-right mil-up" style="position: relative;">
+                                        <!-- Mac Window Controls -->
+                                        <div style="position: absolute; top: 20px; left: 20px; display: flex; gap: 8px; z-index: 10;">
+                                            <div style="width: 12px; height: 12px; border-radius: 50%; background: #FF5F57;"></div>
+                                            <div style="width: 12px; height: 12px; border-radius: 50%; background: #FFBD2E;"></div>
+                                            <div style="width: 12px; height: 12px; border-radius: 50%; background: #28C840;"></div>
+                                        </div>
+
                                         <div class="mil-card-header">
                                             <div class="mil-header-row">
                                                 <div>
@@ -784,9 +791,457 @@
                             <div class="col-lg-6">
 
                                 <div class="mil-monitor-dashboard mil-mb-90">
-                                    <!-- Placeholder Card -->
-                                    <div class="mil-dashboard-card mil-card-main mil-card-extend-right mil-up" style="min-height: 600px; display: flex; align-items: center; justify-content: center;">
-                                        <p style="color: rgba(0,0,0,0.3); font-size: 18px;">Card Placeholder</p>
+                                    <!-- Multi-Language Comparison Card -->
+                                    <div class="mil-dashboard-card mil-card-main mil-card-extend-right mil-up mil-multi-lang-card" style="min-height: 750px; position: relative; overflow: hidden; padding: 0;">
+
+                                        <!-- Language Label -->
+                                        <div class="mil-language-label" style="position: absolute; bottom: 20px; right: 20px; background: rgba(0,0,0,0.8); color: white; padding: 8px 16px; border-radius: 20px; font-size: 12px; z-index: 20; font-weight: bold;">
+                                            🇨🇳 中文
+                                        </div>
+
+                                        <!-- Layer 1: Chinese -->
+                                        <div class="mil-lang-layer mil-lang-chinese" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #FFF5E6; padding: 40px; z-index: 1; overflow-y: auto;">
+                                            <!-- Magazine Layout -->
+                                            <!-- Hero Section -->
+                                            <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 24px; margin-bottom: 28px;">
+                                                <!-- Left: Big Number + Title + Insight -->
+                                                <div>
+                                                    <div style="font-size: 72px; font-weight: bold; line-height: 0.9; color: #FF6B35; margin-bottom: 12px;">127%</div>
+                                                    <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 8px; line-height: 1.2; color: #1a1a1a;">2025 家居设计趋势洞察</h3>
+                                                    <p style="font-size: 11px; color: #999; margin-bottom: 18px;">Q1 2025 | 样本报告</p>
+
+                                                    <!-- Key Insight Box -->
+                                                    <div style="background: rgba(255,255,255,0.7); padding: 18px; border-radius: 10px; border-left: 4px solid #FF6B35; margin-bottom: 16px;">
+                                                        <div style="font-size: 13px; font-weight: bold; margin-bottom: 8px; color: #FF6B35;">核心洞察</div>
+                                                        <p style="font-size: 13px; line-height: 1.6; color: #333; margin-bottom: 10px;">消费者从"极简"转向"情绪疗愈设计"，家居成为心理避风港</p>
+                                                        <p style="font-size: 11px; line-height: 1.5; color: #666;">Z世代消费者更关注空间的情感价值，愿意为"温暖感"支付溢价</p>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Right: Visual Placeholder -->
+                                                <div style="background: #fff; border-radius: 10px; overflow: hidden; display: flex; align-items: center; justify-content: center; min-height: 240px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                                                    <div style="text-align: center; padding: 24px; color: #999;">
+                                                        <div style="font-size: 13px; font-weight: bold; margin-bottom: 10px;">图片占位符</div>
+                                                        <div style="font-size: 10px; line-height: 1.5;">建议图片：<br/>温馨的家居场景照片<br/>或情绪疗愈空间设计<br/>尺寸: 450x280px</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Data Cards Row -->
+                                            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 24px;">
+                                                <div style="background: rgba(76,175,80,0.12); padding: 16px; border-radius: 8px;">
+                                                    <div style="font-size: 11px; color: #666; margin-bottom: 6px; font-weight: 500;">可持续材料</div>
+                                                    <div style="font-size: 24px; font-weight: bold; color: #4CAF50; margin-bottom: 4px;">+127%</div>
+                                                    <div style="font-size: 10px; color: #888;">同比增长</div>
+                                                </div>
+                                                <div style="background: rgba(33,150,243,0.12); padding: 16px; border-radius: 8px;">
+                                                    <div style="font-size: 11px; color: #666; margin-bottom: 6px; font-weight: 500;">社媒讨论</div>
+                                                    <div style="font-size: 24px; font-weight: bold; color: #2196F3; margin-bottom: 4px;">3.2M</div>
+                                                    <div style="font-size: 10px; color: #888;">提及次数</div>
+                                                </div>
+                                                <div style="background: rgba(255,152,0,0.12); padding: 16px; border-radius: 8px;">
+                                                    <div style="font-size: 11px; color: #666; margin-bottom: 6px; font-weight: 500;">预测准确率</div>
+                                                    <div style="font-size: 24px; font-weight: bold; color: #FF9800; margin-bottom: 4px;">94.2%</div>
+                                                    <div style="font-size: 10px; color: #888;">AI 分析</div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Trend Keywords -->
+                                            <div style="margin-bottom: 24px;">
+                                                <div style="font-size: 13px; font-weight: bold; margin-bottom: 12px; color: #333;">趋势关键词</div>
+                                                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                                    <span style="background: #FFE8E8; color: #E53935; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">情绪疗愈</span>
+                                                    <span style="background: #E8F5E9; color: #4CAF50; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">可持续</span>
+                                                    <span style="background: #E3F2FD; color: #2196F3; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">多功能空间</span>
+                                                    <span style="background: #FFF3E0; color: #FF9800; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">智能家居</span>
+                                                    <span style="background: #F3E5F5; color: #9C27B0; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">复古回潮</span>
+                                                </div>
+                                            </div>
+
+                                            <!-- Report Content -->
+                                            <div style="background: rgba(255,255,255,0.7); padding: 20px; border-radius: 10px;">
+                                                <h4 style="font-size: 14px; font-weight: bold; margin-bottom: 12px; color: #1a1a1a; line-height: 1.4;">市场洞察：情绪价值驱动消费升级</h4>
+                                                <p style="font-size: 12px; line-height: 1.7; color: #444; margin-bottom: 10px;">
+                                                    基于3200万条社交媒体数据分析，2025年Q1家居设计市场呈现显著的"情感化"转向。消费者不再满足于功能性需求，而是寻求能够提供心理慰藉的空间设计。
+                                                </p>
+                                                <p style="font-size: 12px; line-height: 1.7; color: #444;">
+                                                    可持续材料的讨论量激增127%，反映出Z世代对环保与美学并重的价值观。品牌需要在产品叙事中强化"情绪疗愈"与"可持续发展"的双重价值主张，才能抓住这一波消费升级的红利期。
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Layer 2: English -->
+                                        <div class="mil-lang-layer mil-lang-english" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #E8F4FD; padding: 40px; z-index: 2; clip-path: inset(0 100% 0 0); overflow-y: auto;">
+                                            <!-- Hero Section -->
+                                            <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 24px; margin-bottom: 28px;">
+                                                <!-- Left: Big Number + Title + Insight -->
+                                                <div>
+                                                    <div style="font-size: 72px; font-weight: bold; line-height: 0.9; color: #2196F3; margin-bottom: 12px;">127%</div>
+                                                    <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 8px; line-height: 1.2; color: #1a1a1a;">2025 Home Design Trends</h3>
+                                                    <p style="font-size: 11px; color: #999; margin-bottom: 18px;">Q1 2025 | Sample Report</p>
+
+                                                    <!-- Key Insight Box -->
+                                                    <div style="background: rgba(255,255,255,0.7); padding: 18px; border-radius: 10px; border-left: 4px solid #2196F3; margin-bottom: 16px;">
+                                                        <div style="font-size: 13px; font-weight: bold; margin-bottom: 8px; color: #2196F3;">Key Insight</div>
+                                                        <p style="font-size: 13px; line-height: 1.6; color: #333; margin-bottom: 10px;">Shift from "minimalism" to "emotional healing", homes become psychological sanctuaries</p>
+                                                        <p style="font-size: 11px; line-height: 1.5; color: #666;">Gen Z consumers prioritize emotional value in spaces, willing to pay premium for "warmth"</p>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Right: Visual Placeholder -->
+                                                <div style="background: #fff; border-radius: 10px; overflow: hidden; display: flex; align-items: center; justify-content: center; min-height: 240px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                                                    <div style="text-align: center; padding: 24px; color: #999;">
+                                                        <div style="font-size: 13px; font-weight: bold; margin-bottom: 10px;">Image Placeholder</div>
+                                                        <div style="font-size: 10px; line-height: 1.5;">Suggested: Cozy home scene<br/>or healing space design<br/>Size: 450x280px</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Data Cards Row -->
+                                            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 24px;">
+                                                <div style="background: rgba(76,175,80,0.12); padding: 16px; border-radius: 8px;">
+                                                    <div style="font-size: 11px; color: #666; margin-bottom: 6px; font-weight: 500;">Sustainable Materials</div>
+                                                    <div style="font-size: 24px; font-weight: bold; color: #4CAF50; margin-bottom: 4px;">+127%</div>
+                                                    <div style="font-size: 10px; color: #888;">YoY Growth</div>
+                                                </div>
+                                                <div style="background: rgba(33,150,243,0.12); padding: 16px; border-radius: 8px;">
+                                                    <div style="font-size: 11px; color: #666; margin-bottom: 6px; font-weight: 500;">Social Discussion</div>
+                                                    <div style="font-size: 24px; font-weight: bold; color: #2196F3; margin-bottom: 4px;">3.2M</div>
+                                                    <div style="font-size: 10px; color: #888;">Mentions</div>
+                                                </div>
+                                                <div style="background: rgba(255,152,0,0.12); padding: 16px; border-radius: 8px;">
+                                                    <div style="font-size: 11px; color: #666; margin-bottom: 6px; font-weight: 500;">Prediction Accuracy</div>
+                                                    <div style="font-size: 24px; font-weight: bold; color: #FF9800; margin-bottom: 4px;">94.2%</div>
+                                                    <div style="font-size: 10px; color: #888;">AI Analysis</div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Trend Keywords -->
+                                            <div style="margin-bottom: 24px;">
+                                                <div style="font-size: 13px; font-weight: bold; margin-bottom: 12px; color: #333;">Trend Keywords</div>
+                                                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                                    <span style="background: #FFE8E8; color: #E53935; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">Emotional Healing</span>
+                                                    <span style="background: #E8F5E9; color: #4CAF50; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">Sustainable</span>
+                                                    <span style="background: #E3F2FD; color: #2196F3; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">Multi-functional</span>
+                                                    <span style="background: #FFF3E0; color: #FF9800; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">Smart Home</span>
+                                                    <span style="background: #F3E5F5; color: #9C27B0; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">Retro Revival</span>
+                                                </div>
+                                            </div>
+
+                                            <!-- Report Content -->
+                                            <div style="background: rgba(255,255,255,0.7); padding: 20px; border-radius: 10px;">
+                                                <h4 style="font-size: 14px; font-weight: bold; margin-bottom: 12px; color: #1a1a1a; line-height: 1.4;">Market Insight: Emotional Value Drives Consumer Upgrade</h4>
+                                                <p style="font-size: 12px; line-height: 1.7; color: #444; margin-bottom: 10px;">
+                                                    Based on 32 million social media data points, Q1 2025 home design market shows a significant shift toward "emotionalization". Consumers are no longer satisfied with functional needs, but seek spatial designs that provide psychological comfort.
+                                                </p>
+                                                <p style="font-size: 12px; line-height: 1.7; color: #444;">
+                                                    The 127% surge in sustainable materials discussion reflects Gen Z's values that balance environmental protection with aesthetics. Brands need to strengthen the dual value proposition of "emotional healing" and "sustainable development" to capture this wave of consumer upgrade dividends.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Layer 3: Arabic -->
+                                        <div class="mil-lang-layer mil-lang-arabic" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #F0E8FF; padding: 40px; z-index: 3; clip-path: inset(100% 0 0 0); direction: rtl; overflow-y: auto;">
+                                            <!-- Hero Section -->
+                                            <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 24px; margin-bottom: 28px;">
+                                                <!-- Left: Big Number + Title + Insight -->
+                                                <div>
+                                                    <div style="font-size: 72px; font-weight: bold; line-height: 0.9; color: #9C27B0; margin-bottom: 12px;">127%</div>
+                                                    <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 8px; line-height: 1.2; color: #1a1a1a;">رؤى اتجاهات تصميم المنزل 2025</h3>
+                                                    <p style="font-size: 11px; color: #999; margin-bottom: 18px;">Q1 2025 | تقرير نموذجي</p>
+
+                                                    <!-- Key Insight Box -->
+                                                    <div style="background: rgba(255,255,255,0.7); padding: 18px; border-radius: 10px; border-right: 4px solid #9C27B0; margin-bottom: 16px;">
+                                                        <div style="font-size: 13px; font-weight: bold; margin-bottom: 8px; color: #9C27B0;">رؤية أساسية</div>
+                                                        <p style="font-size: 13px; line-height: 1.6; color: #333; margin-bottom: 10px;">التحول من "البساطة" إلى "الشفاء العاطفي"، المنازل تصبح ملاذات نفسية</p>
+                                                        <p style="font-size: 11px; line-height: 1.5; color: #666;">المستهلكون من الجيل Z يعطون الأولوية للقيمة العاطفية في المساحات</p>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Right: Visual Placeholder -->
+                                                <div style="background: #fff; border-radius: 10px; overflow: hidden; display: flex; align-items: center; justify-content: center; min-height: 240px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                                                    <div style="text-align: center; padding: 24px; color: #999; direction: ltr;">
+                                                        <div style="font-size: 13px; font-weight: bold; margin-bottom: 10px;">Image Placeholder</div>
+                                                        <div style="font-size: 10px; line-height: 1.5;">Cozy home scene<br/>or healing space<br/>Size: 450x280px</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Data Cards Row -->
+                                            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 24px;">
+                                                <div style="background: rgba(76,175,80,0.12); padding: 16px; border-radius: 8px;">
+                                                    <div style="font-size: 11px; color: #666; margin-bottom: 6px; font-weight: 500;">المواد المستدامة</div>
+                                                    <div style="font-size: 24px; font-weight: bold; color: #4CAF50; margin-bottom: 4px;">+127%</div>
+                                                    <div style="font-size: 10px; color: #888;">نمو سنوي</div>
+                                                </div>
+                                                <div style="background: rgba(33,150,243,0.12); padding: 16px; border-radius: 8px;">
+                                                    <div style="font-size: 11px; color: #666; margin-bottom: 6px; font-weight: 500;">نقاش اجتماعي</div>
+                                                    <div style="font-size: 24px; font-weight: bold; color: #2196F3; margin-bottom: 4px;">3.2M</div>
+                                                    <div style="font-size: 10px; color: #888;">إشارات</div>
+                                                </div>
+                                                <div style="background: rgba(255,152,0,0.12); padding: 16px; border-radius: 8px;">
+                                                    <div style="font-size: 11px; color: #666; margin-bottom: 6px; font-weight: 500;">دقة التنبؤ</div>
+                                                    <div style="font-size: 24px; font-weight: bold; color: #FF9800; margin-bottom: 4px;">94.2%</div>
+                                                    <div style="font-size: 10px; color: #888;">تحليل AI</div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Trend Keywords -->
+                                            <div style="margin-bottom: 24px;">
+                                                <div style="font-size: 13px; font-weight: bold; margin-bottom: 12px; color: #333;">كلمات الاتجاه الرئيسية</div>
+                                                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                                    <span style="background: #FFE8E8; color: #E53935; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">الشفاء العاطفي</span>
+                                                    <span style="background: #E8F5E9; color: #4CAF50; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">مستدام</span>
+                                                    <span style="background: #E3F2FD; color: #2196F3; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">متعدد الوظائف</span>
+                                                    <span style="background: #FFF3E0; color: #FF9800; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">منزل ذكي</span>
+                                                    <span style="background: #F3E5F5; color: #9C27B0; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">عودة الرجعية</span>
+                                                </div>
+                                            </div>
+
+                                            <!-- Report Content -->
+                                            <div style="background: rgba(255,255,255,0.7); padding: 20px; border-radius: 10px;">
+                                                <h4 style="font-size: 14px; font-weight: bold; margin-bottom: 12px; color: #1a1a1a; line-height: 1.4;">رؤية السوق: القيمة العاطفية تدفع ترقية المستهلك</h4>
+                                                <p style="font-size: 12px; line-height: 1.7; color: #444; margin-bottom: 10px;">
+                                                    استنادًا إلى 32 مليون نقطة بيانات من وسائل التواصل الاجتماعي، يُظهر سوق تصميم المنازل للربع الأول من عام 2025 تحولًا كبيرًا نحو "العاطفية". لم يعد المستهلكون راضين عن الاحتياجات الوظيفية، بل يسعون إلى تصاميم مكانية توفر الراحة النفسية.
+                                                </p>
+                                                <p style="font-size: 12px; line-height: 1.7; color: #444;">
+                                                    يعكس الارتفاع بنسبة 127٪ في مناقشة المواد المستدامة قيم الجيل Z التي توازن بين حماية البيئة والجماليات. تحتاج العلامات التجارية إلى تعزيز القيمة المزدوجة "للشفاء العاطفي" و "التنمية المستدامة" للاستفادة من موجة ترقية المستهلك.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Layer 4: Thai -->
+                                        <div class="mil-lang-layer mil-lang-thai" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #FFE8F0; padding: 40px; z-index: 4; clip-path: inset(0 0 0 100%); overflow-y: auto;">
+                                            <!-- Hero Section -->
+                                            <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 24px; margin-bottom: 28px;">
+                                                <!-- Left: Big Number + Title + Insight -->
+                                                <div>
+                                                    <div style="font-size: 72px; font-weight: bold; line-height: 0.9; color: #E91E63; margin-bottom: 12px;">127%</div>
+                                                    <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 8px; line-height: 1.2; color: #1a1a1a;">เทรนด์การออกแบบบ้าน 2025</h3>
+                                                    <p style="font-size: 11px; color: #999; margin-bottom: 18px;">Q1 2025 | รายงานตัวอย่าง</p>
+
+                                                    <!-- Key Insight Box -->
+                                                    <div style="background: rgba(255,255,255,0.7); padding: 18px; border-radius: 10px; border-left: 4px solid #E91E63; margin-bottom: 16px;">
+                                                        <div style="font-size: 13px; font-weight: bold; margin-bottom: 8px; color: #E91E63;">ข้อมูลเชิงลึกหลัก</div>
+                                                        <p style="font-size: 13px; line-height: 1.6; color: #333; margin-bottom: 10px;">เปลี่ยนจาก "มินิมอล" สู่ "การบำบัดอารมณ์" บ้านกลายเป็นสถานที่พักพิงทางจิตใจ</p>
+                                                        <p style="font-size: 11px; line-height: 1.5; color: #666;">ผู้บริโภค Gen Z ให้ความสำคัญกับคุณค่าทางอารมณ์ในพื้นที่</p>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Right: Visual Placeholder -->
+                                                <div style="background: #fff; border-radius: 10px; overflow: hidden; display: flex; align-items: center; justify-content: center; min-height: 240px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                                                    <div style="text-align: center; padding: 24px; color: #999;">
+                                                        <div style="font-size: 13px; font-weight: bold; margin-bottom: 10px;">ตัวยึดตำแหน่งรูปภาพ</div>
+                                                        <div style="font-size: 10px; line-height: 1.5;">ฉากบ้านที่อบอุ่น<br/>หรือพื้นที่บำบัดจิตใจ<br/>ขนาด: 450x280px</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Data Cards Row -->
+                                            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 24px;">
+                                                <div style="background: rgba(76,175,80,0.12); padding: 16px; border-radius: 8px;">
+                                                    <div style="font-size: 11px; color: #666; margin-bottom: 6px; font-weight: 500;">วัสดุยั่งยืน</div>
+                                                    <div style="font-size: 24px; font-weight: bold; color: #4CAF50; margin-bottom: 4px;">+127%</div>
+                                                    <div style="font-size: 10px; color: #888;">การเติบโตต่อปี</div>
+                                                </div>
+                                                <div style="background: rgba(33,150,243,0.12); padding: 16px; border-radius: 8px;">
+                                                    <div style="font-size: 11px; color: #666; margin-bottom: 6px; font-weight: 500;">การสนทนาทางสังคม</div>
+                                                    <div style="font-size: 24px; font-weight: bold; color: #2196F3; margin-bottom: 4px;">3.2M</div>
+                                                    <div style="font-size: 10px; color: #888;">การกล่าวถึง</div>
+                                                </div>
+                                                <div style="background: rgba(255,152,0,0.12); padding: 16px; border-radius: 8px;">
+                                                    <div style="font-size: 11px; color: #666; margin-bottom: 6px; font-weight: 500;">ความแม่นยำในการคาดการณ์</div>
+                                                    <div style="font-size: 24px; font-weight: bold; color: #FF9800; margin-bottom: 4px;">94.2%</div>
+                                                    <div style="font-size: 10px; color: #888;">การวิเคราะห์ AI</div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Trend Keywords -->
+                                            <div style="margin-bottom: 24px;">
+                                                <div style="font-size: 13px; font-weight: bold; margin-bottom: 12px; color: #333;">คำสำคัญของเทรนด์</div>
+                                                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                                    <span style="background: #FFE8E8; color: #E53935; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">การบำบัดอารมณ์</span>
+                                                    <span style="background: #E8F5E9; color: #4CAF50; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">ยั่งยืน</span>
+                                                    <span style="background: #E3F2FD; color: #2196F3; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">หลายฟังก์ชัน</span>
+                                                    <span style="background: #FFF3E0; color: #FF9800; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">บ้านอัจฉริยะ</span>
+                                                    <span style="background: #F3E5F5; color: #9C27B0; padding: 8px 16px; border-radius: 18px; font-size: 12px; font-weight: 500;">ย้อนยุครีไวเวิล</span>
+                                                </div>
+                                            </div>
+
+                                            <!-- Report Content -->
+                                            <div style="background: rgba(255,255,255,0.7); padding: 20px; border-radius: 10px;">
+                                                <h4 style="font-size: 14px; font-weight: bold; margin-bottom: 12px; color: #1a1a1a; line-height: 1.4;">ข้อมูลเชิงลึกตลาด: คุณค่าทางอารมณ์ขับเคลื่อนการอัพเกรดผู้บริโภค</h4>
+                                                <p style="font-size: 12px; line-height: 1.7; color: #444; margin-bottom: 10px;">
+                                                    จากการวิเคราะห์ข้อมูลโซเชียลมีเดีย 32 ล้านจุด ตลาดการออกแบบบ้านในไตรมาสแรกของปี 2025 แสดงให้เห็นการเปลี่ยนแปลงที่สำคัญไปสู่ "อารมณ์" ผู้บริโภคไม่พอใจกับความต้องการด้านการใช้งานอีกต่อไป แต่แสวงหาการออกแบบพื้นที่ที่ให้ความสบายใจทางจิตใจ
+                                                </p>
+                                                <p style="font-size: 12px; line-height: 1.7; color: #444;">
+                                                    การเพิ่มขึ้น 127% ในการพูดคุยเกี่ยวกับวัสดุยั่งยืนสะท้อนถึงค่านิยมของ Gen Z ที่สมดุลระหว่างการปกป้องสิ่งแวดล้อมกับความสวยงาม แบรนด์จำเป็นต้องเสริมสร้างข้อเสนอคุณค่าคู่ของ "การบำบัดอารมณ์" และ "การพัฒนาที่ยั่งยืน" เพื่อรับโอกาสจากคลื่นการอัพเกรดผู้บริโภคนี้
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Animated Divider -->
+                                        <div class="mil-comparison-divider" style="position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: #000; z-index: 10;">
+                                            <!-- Drag Handle -->
+                                            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; background: #000; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 5L3 10L7 15M13 5L17 10L13 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <!-- JavaScript for Auto Animation -->
+                                        <script>
+                                        (function() {
+                                            const card = document.querySelector('.mil-multi-lang-card');
+                                            const divider = card.querySelector('.mil-comparison-divider');
+                                            const label = card.querySelector('.mil-language-label');
+                                            const englishLayer = card.querySelector('.mil-lang-english');
+                                            const arabicLayer = card.querySelector('.mil-lang-arabic');
+                                            const thaiLayer = card.querySelector('.mil-lang-thai');
+
+                                            let currentStep = 0;
+                                            let isPaused = false;
+                                            let animationId;
+
+                                            const languages = [
+                                                { name: '🇨🇳 中文', duration: 2500 },
+                                                { name: '🇺🇸 English', duration: 2500 },
+                                                { name: '🇸🇦 العربية', duration: 2500 },
+                                                { name: '🇹🇭 ไทย', duration: 2500 }
+                                            ];
+
+                                            function animate() {
+                                                if (isPaused) return;
+
+                                                const step = currentStep % 4;
+                                                const transitionDuration = 1200;
+
+                                                switch(step) {
+                                                    case 0: // Chinese -> English (left to right)
+                                                        label.textContent = languages[0].name; // 中文
+
+                                                        // Reset unnecessary layers instantly - keep only Chinese & English
+                                                        arabicLayer.style.transition = 'none';
+                                                        thaiLayer.style.transition = 'none';
+                                                        arabicLayer.style.clipPath = 'inset(100% 0 0 0)';
+                                                        thaiLayer.style.clipPath = 'inset(0 0 0 100%)';
+
+                                                        divider.style.transition = 'none';
+                                                        divider.style.width = '4px';
+                                                        divider.style.height = '100%';
+                                                        divider.style.left = '0';
+                                                        divider.style.top = '0';
+
+                                                        setTimeout(() => {
+                                                            divider.style.transition = `left ${transitionDuration}ms ease-in-out`;
+                                                            divider.style.left = '100%';
+                                                            englishLayer.style.transition = `clip-path ${transitionDuration}ms ease-in-out`;
+                                                            englishLayer.style.clipPath = 'inset(0 0 0 0)';
+
+                                                            setTimeout(() => {
+                                                                label.textContent = languages[1].name; // English
+                                                            }, transitionDuration / 2);
+                                                        }, 50);
+                                                        break;
+
+                                                    case 1: // English -> Arabic (bottom to top)
+                                                        // Reset unnecessary layers instantly - keep only English & Arabic
+                                                        thaiLayer.style.transition = 'none';
+                                                        thaiLayer.style.clipPath = 'inset(0 0 0 100%)';
+
+                                                        divider.style.transition = 'none';
+                                                        divider.style.width = '100%';
+                                                        divider.style.height = '4px';
+                                                        divider.style.left = '0';
+                                                        divider.style.top = '100%';
+
+                                                        setTimeout(() => {
+                                                            divider.style.transition = `top ${transitionDuration}ms ease-in-out`;
+                                                            divider.style.top = '0';
+                                                            arabicLayer.style.transition = `clip-path ${transitionDuration}ms ease-in-out`;
+                                                            arabicLayer.style.clipPath = 'inset(0 0 0 0)';
+
+                                                            setTimeout(() => {
+                                                                label.textContent = languages[2].name; // Arabic
+                                                            }, transitionDuration / 2);
+                                                        }, 50);
+                                                        break;
+
+                                                    case 2: // Arabic -> Thai (right to left)
+                                                        // Reset unnecessary layers instantly - keep only Arabic & Thai
+                                                        englishLayer.style.transition = 'none';
+                                                        englishLayer.style.clipPath = 'inset(0 100% 0 0)';
+
+                                                        divider.style.transition = 'none';
+                                                        divider.style.width = '4px';
+                                                        divider.style.height = '100%';
+                                                        divider.style.left = '100%';
+                                                        divider.style.top = '0';
+
+                                                        setTimeout(() => {
+                                                            divider.style.transition = `left ${transitionDuration}ms ease-in-out`;
+                                                            divider.style.left = '0';
+                                                            thaiLayer.style.transition = `clip-path ${transitionDuration}ms ease-in-out`;
+                                                            thaiLayer.style.clipPath = 'inset(0 0 0 0)';
+
+                                                            setTimeout(() => {
+                                                                label.textContent = languages[3].name; // Thai
+                                                            }, transitionDuration / 2);
+                                                        }, 50);
+                                                        break;
+
+                                                    case 3: // Thai -> Chinese (top to bottom)
+                                                        // Reset unnecessary layers instantly - keep only Thai & Chinese
+                                                        englishLayer.style.transition = 'none';
+                                                        arabicLayer.style.transition = 'none';
+                                                        englishLayer.style.clipPath = 'inset(0 100% 0 0)';
+                                                        arabicLayer.style.clipPath = 'inset(100% 0 0 0)';
+
+                                                        // Ensure Thai is fully visible before animating
+                                                        thaiLayer.style.transition = 'none';
+                                                        thaiLayer.style.clipPath = 'inset(0 0 0 0)';
+
+                                                        divider.style.transition = 'none';
+                                                        divider.style.width = '100%';
+                                                        divider.style.height = '4px';
+                                                        divider.style.left = '0';
+                                                        divider.style.top = '0';
+
+                                                        setTimeout(() => {
+                                                            divider.style.transition = `top ${transitionDuration}ms ease-in-out`;
+                                                            divider.style.top = '100%';
+                                                            thaiLayer.style.transition = `clip-path ${transitionDuration}ms ease-in-out`;
+                                                            thaiLayer.style.clipPath = 'inset(100% 0 0 0)';
+
+                                                            setTimeout(() => {
+                                                                label.textContent = languages[0].name; // Back to Chinese
+
+                                                                // Reset Thai layer to right side for next cycle
+                                                                thaiLayer.style.transition = 'none';
+                                                                thaiLayer.style.clipPath = 'inset(0 0 0 100%)';
+                                                            }, transitionDuration);
+                                                        }, 50);
+                                                        break;
+                                                }
+
+                                                currentStep++;
+                                                animationId = setTimeout(animate, languages[step].duration + transitionDuration);
+                                            }
+
+                                            card.addEventListener('mouseenter', () => {
+                                                isPaused = true;
+                                                clearTimeout(animationId);
+                                            });
+
+                                            card.addEventListener('mouseleave', () => {
+                                                isPaused = false;
+                                                animate();
+                                            });
+
+                                            setTimeout(animate, 1000);
+                                        })();
+                                        </script>
                                     </div>
                                 </div>
 
