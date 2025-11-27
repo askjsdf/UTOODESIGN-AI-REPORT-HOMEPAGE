@@ -1110,7 +1110,7 @@ $(function () {
 /* -------------------------------------------
 Email Modal Functionality
 ------------------------------------------- */
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
     'use strict';
 
     const modal = document.getElementById('emailModal');
@@ -1120,7 +1120,12 @@ Email Modal Functionality
     const submitText = document.getElementById('submitText');
     const submitLoading = document.getElementById('submitLoading');
     const successMessage = document.getElementById('successMessage');
-    const modalBody = emailForm ? emailForm.parentElement : null;
+
+    // 如果元素不存在，直接返回
+    if (!modal || !emailForm || !emailInput) {
+        console.warn('Email modal elements not found');
+        return;
+    }
 
     // Open modal
     function openModal() {
@@ -1241,5 +1246,4 @@ Email Modal Functionality
             }
         });
     }
-
-})();
+});
