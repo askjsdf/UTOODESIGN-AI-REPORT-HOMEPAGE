@@ -110,7 +110,7 @@
                                         <a href="#distribution">全场景数字化分发</a>
                                     </li>
                                     <li>
-                                        <a href="#cases">成功案例</a>
+                                        <a href="#cases">客户案例</a>
                                     </li>
                                     <li>
                                         <a href="#team">设计专家资源</a>
@@ -145,7 +145,7 @@
                                             <p class="mil-light-soft">Email: contact@utoodesign.com</p>
                                         </div>
                                         <div class="col-lg-6 mil-mb-60">
-                                            <a href="javascript:void(0);" class="mil-button mil-arrow-place"><span style="font-size: 16px;">预约演示</span></a>
+                                            <a href="#" data-no-swup class="mil-button mil-arrow-place open-email-modal"><span style="font-size: 16px;">预约演示</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -499,7 +499,7 @@
                                     <h2 class="mil-h1 mil-muted mil-center"><span class="mil-thin">AI内容系统</span></h2>
                                 </div>
                                 <div class="mil-complex-text justify-content-center mil-up" style="margin-top: 60px;">
-                                    <a href="javascript:void(0);" class="mil-services-button mil-button mil-arrow-place"><span style="font-size: 16px;">预约演示</span></a>
+                                    <a href="#" data-no-swup class="mil-services-button mil-button mil-arrow-place open-email-modal"><span style="font-size: 16px;">预约演示</span></a>
                                 </div>
                             </div>
 
@@ -758,10 +758,170 @@
                             <div class="col-lg-6 order-lg-1">
 
                                 <div class="mil-monitor-dashboard mil-mb-90">
-                                    <!-- Placeholder Card -->
-                                    <div class="mil-dashboard-card mil-card-main mil-card-extend-left mil-up" style="min-height: 600px; display: flex; align-items: center; justify-content: center;">
-                                        <p style="color: rgba(0,0,0,0.3); font-size: 18px;">Card Placeholder</p>
+                                    <!-- Double Door Accordion -->
+                                    <div class="mil-dashboard-card mil-card-main mil-card-extend-left mil-up" style="height: 750px; padding: 0; overflow: hidden; display: flex;">
+
+                                        <!-- Left Door -->
+                                        <div class="mil-door-panel mil-door-left" style="flex: 1; position: relative; transition: flex 0.6s cubic-bezier(0.4, 0, 0.2, 1); overflow: hidden; cursor: pointer; height: 100%;">
+                                            <!-- Background Image (visible in default state) -->
+                                            <div class="mil-door-bg" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url('img/photo/ai-research.jpg'); background-size: cover; background-position: center; transition: opacity 0.6s ease; z-index: 0;"></div>
+                                            <!-- Black Semi-transparent Overlay -->
+                                            <div class="mil-door-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); transition: opacity 0.6s ease; z-index: 1;"></div>
+
+                                            <!-- Door Tab -->
+                                            <div class="mil-door-tab" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; text-align: center; transition: all 0.6s ease;">
+                                                <div style="writing-mode: vertical-rl; text-orientation: mixed;">
+                                                    <h3 style="color: white; font-size: 28px; font-weight: bold; letter-spacing: 4px; margin: 0;">AI 智能分析</h3>
+                                                    <p style="color: rgba(255,255,255,0.7); font-size: 14px; margin-top: 20px; letter-spacing: 2px;">AI Analysis</p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Door Content (hidden by default) -->
+                                            <div class="mil-door-content" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 3; padding: 40px; display: flex; flex-direction: column; justify-content: center; opacity: 0; transition: opacity 0.4s ease; pointer-events: none; overflow-y: auto; background: white;">
+                                                <h4 style="color: #000; font-size: 24px; font-weight: bold; margin-bottom: 20px;">AI 智能分析</h4>
+                                                <div style="color: #666; font-size: 15px; line-height: 1.8;">
+                                                    <div style="background: #f8f8f8; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                                                        <h5 style="font-size: 16px; font-weight: bold; color: #333; margin-bottom: 10px;">大规模数据处理</h5>
+                                                        <p style="margin: 0; color: #666;">利用先进的机器学习算法，快速处理海量数据，识别市场趋势和消费者行为模式。</p>
+                                                    </div>
+                                                    <div style="background: #f8f8f8; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                                                        <h5 style="font-size: 16px; font-weight: bold; color: #333; margin-bottom: 10px;">模式识别与预测</h5>
+                                                        <p style="margin: 0; color: #666;">通过深度学习模型，发现数据中的隐藏关联,提供前瞻性的市场洞察。</p>
+                                                    </div>
+                                                    <div style="background: #f8f8f8; padding: 20px; border-radius: 8px;">
+                                                        <h5 style="font-size: 16px; font-weight: bold; color: #333; margin-bottom: 10px;">实时监测分析</h5>
+                                                        <p style="margin: 0; color: #666;">7x24小时不间断监测市场动态，及时捕捉行业变化和竞争对手动向。</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Right Door -->
+                                        <div class="mil-door-panel mil-door-right" style="flex: 1; position: relative; transition: flex 0.6s cubic-bezier(0.4, 0, 0.2, 1); overflow: hidden; cursor: pointer; border-left: 2px solid rgba(255,255,255,0.1); height: 100%;">
+                                            <!-- Background Image (visible in default state) - 水平翻转并放大120% -->
+                                            <div class="mil-door-bg" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url('img/photo/human-research.jpg'); background-size: 230%; background-position:center; transform: scaleX(-1); transition: opacity 0.6s ease; z-index: 0;"></div>
+                                            <!-- Black Semi-transparent Overlay -->
+                                            <div class="mil-door-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); transition: opacity 0.6s ease; z-index: 1;"></div>
+
+                                            <!-- Door Tab -->
+                                            <div class="mil-door-tab" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; text-align: center; transition: all 0.6s ease;">
+                                                <div style="writing-mode: vertical-rl; text-orientation: mixed;">
+                                                    <h3 style="color: white; font-size: 28px; font-weight: bold; letter-spacing: 4px; margin: 0;">专家深度诠释</h3>
+                                                    <p style="color: rgba(255,255,255,0.7); font-size: 14px; margin-top: 20px; letter-spacing: 2px;">Expert Insights</p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Door Content (hidden by default) -->
+                                            <div class="mil-door-content" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 3; padding: 40px; display: flex; flex-direction: column; justify-content: center; opacity: 0; transition: opacity 0.4s ease; pointer-events: none; overflow-y: auto; background: white;">
+                                                <h4 style="color: #000; font-size: 24px; font-weight: bold; margin-bottom: 20px;">专家深度诠释</h4>
+                                                <div style="color: #666; font-size: 15px; line-height: 1.8;">
+                                                    <div style="background: #f8f8f8; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                                                        <h5 style="font-size: 16px; font-weight: bold; color: #333; margin-bottom: 10px;">行业经验加持</h5>
+                                                        <p style="margin: 0; color: #666;">资深行业分析师运用多年积累的专业知识，对AI输出进行二次筛选与深度解读。</p>
+                                                    </div>
+                                                    <div style="background: #f8f8f8; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                                                        <h5 style="font-size: 16px; font-weight: bold; color: #333; margin-bottom: 10px;">战略性建议</h5>
+                                                        <p style="margin: 0; color: #666;">不仅提供数据分析，更给出可执行的战略建议和实施路径。</p>
+                                                    </div>
+                                                    <div style="background: #f8f8f8; padding: 20px; border-radius: 8px;">
+                                                        <h5 style="font-size: 16px; font-weight: bold; color: #333; margin-bottom: 10px;">人性化洞察</h5>
+                                                        <p style="margin: 0; color: #666;">结合人文视角和商业智慧，提炼出真正有价值的品牌洞察。</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
+
+                                    <!-- JavaScript for Door Accordion -->
+                                    <script>
+                                    (function() {
+                                        const leftDoor = document.querySelector('.mil-door-left');
+                                        const rightDoor = document.querySelector('.mil-door-right');
+                                        const allDoors = [leftDoor, rightDoor];
+                                        const card = leftDoor.closest('.mil-dashboard-card');
+
+                                        // 状态1: 默认状态 - 左右都显示标题和背景图
+                                        function resetDoors() {
+                                            // Set to 50/50 split (1 : 1)
+                                            leftDoor.style.flex = '1';
+                                            rightDoor.style.flex = '1';
+
+                                            allDoors.forEach(door => {
+                                                const bg = door.querySelector('.mil-door-bg');
+                                                const overlay = door.querySelector('.mil-door-overlay');
+                                                const content = door.querySelector('.mil-door-content');
+                                                const tab = door.querySelector('.mil-door-tab');
+
+                                                // 显示背景图
+                                                if (bg) bg.style.opacity = '1';
+                                                // 显示标题内容 (overlay + tab)
+                                                overlay.style.opacity = '1';
+                                                tab.style.opacity = '1';
+                                                // 隐藏正文详细内容
+                                                content.style.opacity = '0';
+                                                content.style.pointerEvents = 'none';
+                                            });
+                                        }
+
+                                        // 状态2/3: 展开某一边
+                                        function expandDoor(door) {
+                                            const expandBg = door.querySelector('.mil-door-bg');
+                                            const expandOverlay = door.querySelector('.mil-door-overlay');
+                                            const expandContent = door.querySelector('.mil-door-content');
+                                            const expandTab = door.querySelector('.mil-door-tab');
+
+                                            // 处理另一边（收缩的门）
+                                            allDoors.forEach(d => {
+                                                if (d !== door) {
+                                                    // 另一边收缩，只显示标题内容
+                                                    d.style.flex = '0.7';
+                                                    const otherBg = d.querySelector('.mil-door-bg');
+                                                    const otherOverlay = d.querySelector('.mil-door-overlay');
+                                                    const otherContent = d.querySelector('.mil-door-content');
+                                                    const otherTab = d.querySelector('.mil-door-tab');
+
+                                                    // 隐藏背景图（展开时不显示）
+                                                    if (otherBg) otherBg.style.opacity = '0';
+                                                    // 保持显示标题内容
+                                                    otherOverlay.style.opacity = '1';
+                                                    otherTab.style.opacity = '1';
+                                                    // 隐藏正文详细内容
+                                                    otherContent.style.opacity = '0';
+                                                    otherContent.style.pointerEvents = 'none';
+                                                }
+                                            });
+
+                                            // 展开当前门，显示正文详细内容
+                                            door.style.flex = '2.3';
+                                            // 隐藏背景图（展开时不显示）
+                                            if (expandBg) expandBg.style.opacity = '0';
+                                            // 隐藏标题内容
+                                            expandOverlay.style.opacity = '0';
+                                            expandTab.style.opacity = '0';
+
+                                            // 延迟显示正文详细内容
+                                            setTimeout(() => {
+                                                expandContent.style.opacity = '1';
+                                                expandContent.style.pointerEvents = 'auto';
+                                            }, 200);
+                                        }
+
+                                        allDoors.forEach(door => {
+                                            door.addEventListener('mouseenter', () => {
+                                                expandDoor(door);
+                                            });
+                                        });
+
+                                        // Reset to 55/45 when mouse leaves the entire card
+                                        if (card) {
+                                            card.addEventListener('mouseleave', resetDoors);
+                                        }
+
+                                        // Set initial state to 55/45
+                                        resetDoors();
+                                    })();
+                                    </script>
                                 </div>
 
                             </div>
@@ -818,12 +978,8 @@
                                                     </div>
                                                 </div>
 
-                                                <!-- Right: Visual Placeholder -->
-                                                <div style="background: #fff; border-radius: 10px; overflow: hidden; display: flex; align-items: center; justify-content: center; min-height: 240px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-                                                    <div style="text-align: center; padding: 24px; color: #999;">
-                                                        <div style="font-size: 13px; font-weight: bold; margin-bottom: 10px;">图片占位符</div>
-                                                        <div style="font-size: 10px; line-height: 1.5;">建议图片：<br/>温馨的家居场景照片<br/>或情绪疗愈空间设计<br/>尺寸: 450x280px</div>
-                                                    </div>
+                                                <!-- Right: Visual Image -->
+                                                <div style="background-image: url('img/photo/jiaju.jpg'); background-size: cover; background-position: center; border-radius: 10px; overflow: hidden; min-height: 240px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
                                                 </div>
                                             </div>
 
@@ -888,12 +1044,8 @@
                                                     </div>
                                                 </div>
 
-                                                <!-- Right: Visual Placeholder -->
-                                                <div style="background: #fff; border-radius: 10px; overflow: hidden; display: flex; align-items: center; justify-content: center; min-height: 240px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-                                                    <div style="text-align: center; padding: 24px; color: #999;">
-                                                        <div style="font-size: 13px; font-weight: bold; margin-bottom: 10px;">Image Placeholder</div>
-                                                        <div style="font-size: 10px; line-height: 1.5;">Suggested: Cozy home scene<br/>or healing space design<br/>Size: 450x280px</div>
-                                                    </div>
+                                                <!-- Right: Visual Image -->
+                                                <div style="background-image: url('img/photo/jiaju.jpg'); background-size: cover; background-position: center; border-radius: 10px; overflow: hidden; min-height: 240px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
                                                 </div>
                                             </div>
 
@@ -958,12 +1110,8 @@
                                                     </div>
                                                 </div>
 
-                                                <!-- Right: Visual Placeholder -->
-                                                <div style="background: #fff; border-radius: 10px; overflow: hidden; display: flex; align-items: center; justify-content: center; min-height: 240px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-                                                    <div style="text-align: center; padding: 24px; color: #999; direction: ltr;">
-                                                        <div style="font-size: 13px; font-weight: bold; margin-bottom: 10px;">Image Placeholder</div>
-                                                        <div style="font-size: 10px; line-height: 1.5;">Cozy home scene<br/>or healing space<br/>Size: 450x280px</div>
-                                                    </div>
+                                                <!-- Right: Visual Image -->
+                                                <div style="background-image: url('img/photo/jiaju.jpg'); background-size: cover; background-position: center; border-radius: 10px; overflow: hidden; min-height: 240px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
                                                 </div>
                                             </div>
 
@@ -1028,12 +1176,8 @@
                                                     </div>
                                                 </div>
 
-                                                <!-- Right: Visual Placeholder -->
-                                                <div style="background: #fff; border-radius: 10px; overflow: hidden; display: flex; align-items: center; justify-content: center; min-height: 240px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-                                                    <div style="text-align: center; padding: 24px; color: #999;">
-                                                        <div style="font-size: 13px; font-weight: bold; margin-bottom: 10px;">ตัวยึดตำแหน่งรูปภาพ</div>
-                                                        <div style="font-size: 10px; line-height: 1.5;">ฉากบ้านที่อบอุ่น<br/>หรือพื้นที่บำบัดจิตใจ<br/>ขนาด: 450x280px</div>
-                                                    </div>
+                                                <!-- Right: Visual Image -->
+                                                <div style="background-image: url('img/photo/jiaju.jpg'); background-size: cover; background-position: center; border-radius: 10px; overflow: hidden; min-height: 240px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
                                                 </div>
                                             </div>
 
@@ -1272,9 +1416,8 @@
                             <div class="col-lg-6 order-lg-1">
 
                                 <div class="mil-monitor-dashboard mil-mb-90">
-                                    <!-- Placeholder Card -->
-                                    <div class="mil-dashboard-card mil-card-main mil-card-extend-left mil-up" style="min-height: 600px; display: flex; align-items: center; justify-content: center;">
-                                        <p style="color: rgba(0,0,0,0.3); font-size: 18px;">Card Placeholder</p>
+                                    <!-- Image Card -->
+                                    <div class="mil-dashboard-card mil-card-main mil-card-extend-left mil-up" style="height: 750px; background-image: url('img/photo/omni-channel.jpg'); background-size: 120%; background-position: center; background-repeat: no-repeat; overflow: hidden;">
                                     </div>
                                 </div>
 
@@ -1284,53 +1427,53 @@
                 </section>
                 <!-- 全场景数字化分发 end -->
 
-                <!-- 成功案例 -->
+                <!-- 客户案例 -->
                 <section id="cases">
                     <div class="container mil-p-120-60">
                         <div class="row align-items-center mil-mb-30">
                             <div class="col-lg-12 mil-mb-30">
-                                <h3 class="mil-up">成功案例</h3>
+                                <h3 class="mil-up">客户案例</h3>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-6">
 
-                                <div class="mil-blog-card mil-mb-60">
+                                <a href="casestudy1.html" class="mil-blog-card mil-mb-60" style="display: block; text-decoration: none; color: inherit;">
                                     <div class="mil-cover-frame mil-up">
-                                        <img src="img/blog/1.jpg" alt="cover">
+                                        <img src="img/casestudy/casestudy1/01.jpg" alt="GlassMuse高端香水包装">
                                     </div>
                                     <div class="mil-post-descr">
                                         <div class="mil-labels mil-up mil-mb-30">
-                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
+                                            <div class="mil-label mil-upper mil-accent">高端制造</div>
+                                            <div class="mil-label mil-upper">18个月</div>
                                         </div>
-                                        <h4 class="mil-up mil-mb-30">How to Become a Graphic Designer in 10 Simple Steps</h4>
-                                        <p class="mil-post-text mil-up mil-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
+                                        <h4 class="mil-up mil-mb-30">从"隐形冠军"到"行业立法者"</h4>
+                                        <p class="mil-post-text mil-up mil-mb-30">GlassMuse 拥有世界级的玻璃吹制工艺,却长期被困在B2B制造业的"价值链底层陷阱"中。经过18个月的战略陪跑,成功从Tier 2供应商晋升为全球Top 5香水集团的Tier 1战略伙伴,官网主动询盘增长300%,并确立了行业趋势定义权。</p>
                                     </div>
-                                </div>
+                                </a>
 
                             </div>
                             <div class="col-lg-6">
 
-                                <div class="mil-blog-card mil-mb-60">
+                                <a href="casestudy2.html" class="mil-blog-card mil-mb-60" style="display: block; text-decoration: none; color: inherit;">
                                     <div class="mil-cover-frame mil-up">
-                                        <img src="img/blog/2.jpg" alt="cover">
+                                        <img src="img/casestudy/casestudy2/01.jpg" alt="NOMAD时尚手机壳">
                                     </div>
                                     <div class="mil-post-descr">
                                         <div class="mil-labels mil-up mil-mb-30">
-                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
+                                            <div class="mil-label mil-upper mil-accent">3C出海</div>
+                                            <div class="mil-label mil-upper">12个月</div>
                                         </div>
-                                        <h4 class="mil-up mil-mb-30">16 Best Graphic Design Online and Offline Courses</h4>
-                                        <p class="mil-post-text mil-up mil-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
+                                        <h4 class="mil-up mil-mb-30">如何在印尼"手机壳红海"中杀出重围</h4>
+                                        <p class="mil-post-text mil-up mil-mb-30">NOMAD是典型的中国出海3C品牌,在印尼电商平台迅速起盘却陷入"流量陷阱"。通过将手机壳从"数码配件"升维至"时尚配饰",12个月内实现客单价提升250%,TikTok品牌话题播放量破5亿,并成功进驻雅加达顶级线下百货。</p>
                                     </div>
-                                </div>
+                                </a>
 
                             </div>
                         </div>
                     </div>
                 </section>
-                <!-- 成功案例 end -->
+                <!-- 客户案例 end -->
 
                 <!-- partners -->
                 <div>
@@ -1369,7 +1512,7 @@
 
                                     <p class="mil-up mil-mb-60" style="width: 400px; max-width: none;">这不仅是一支专业团队，更是一个充满洞察力与前瞻性的智囊网络。我们始终以"设计即战略"为信念，用创意赋能品牌，用专业定义未来。</p>
 
-                                    <div class="mil-up"><a href="javascript:void(0);" class="mil-button mil-arrow-place mil-mb-60"><span style="font-size: 16px;">预约演示</span></a></div>
+                                    <div class="mil-up"><a href="#" data-no-swup class="mil-button mil-arrow-place mil-mb-60 open-email-modal"><span style="font-size: 16px;">预约演示</span></a></div>
                                 </div>
 
                             </div>
@@ -1383,12 +1526,10 @@
                                             <div class="mil-expert-card-flip mil-mb-20">
                                                 <div class="mil-flip-inner">
                                                     <div class="mil-flip-front">
-                                                        <div style="background: #f0f0f0; height: 240px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                                            <span style="font-size: 42px; color: #999;">1</span>
-                                                        </div>
+                                                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=500&fit=crop" alt="专家头像" style="width: 100%; height: 240px; object-fit: cover; border-radius: 8px;">
                                                     </div>
                                                     <div class="mil-flip-back">
-                                                        <h5 style="margin-bottom: 8px;">专家 1</h5>
+                                                        <h5 style="margin-bottom: 8px;">Emily Chen</h5>
                                                         <p style="font-size: 13px; color: #666; margin-bottom: 12px;">品牌战略顾问</p>
                                                         <p style="font-size: 12px; line-height: 1.5; color: #888;">毕业于伦敦艺术大学，拥有10年品牌设计经验。</p>
                                                     </div>
@@ -1398,12 +1539,10 @@
                                             <div class="mil-expert-card-flip mil-mb-20">
                                                 <div class="mil-flip-inner">
                                                     <div class="mil-flip-front">
-                                                        <div style="background: #f0f0f0; height: 240px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                                            <span style="font-size: 42px; color: #999;">2</span>
-                                                        </div>
+                                                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=500&fit=crop" alt="专家头像" style="width: 100%; height: 240px; object-fit: cover; border-radius: 8px;">
                                                     </div>
                                                     <div class="mil-flip-back">
-                                                        <h5 style="margin-bottom: 8px;">专家 2</h5>
+                                                        <h5 style="margin-bottom: 8px;">Marcus Lin</h5>
                                                         <p style="font-size: 13px; color: #666; margin-bottom: 12px;">视觉设计总监</p>
                                                         <p style="font-size: 12px; line-height: 1.5; color: #888;">帕森斯设计学院硕士，专注于跨文化视觉传达。</p>
                                                     </div>
@@ -1413,12 +1552,10 @@
                                             <div class="mil-expert-card-flip mil-mb-20">
                                                 <div class="mil-flip-inner">
                                                     <div class="mil-flip-front">
-                                                        <div style="background: #f0f0f0; height: 240px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                                            <span style="font-size: 42px; color: #999;">3</span>
-                                                        </div>
+                                                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop" alt="专家头像" style="width: 100%; height: 240px; object-fit: cover; border-radius: 8px;">
                                                     </div>
                                                     <div class="mil-flip-back">
-                                                        <h5 style="margin-bottom: 8px;">专家 3</h5>
+                                                        <h5 style="margin-bottom: 8px;">Sophia Rodriguez</h5>
                                                         <p style="font-size: 13px; color: #666; margin-bottom: 12px;">内容架构师</p>
                                                         <p style="font-size: 12px; line-height: 1.5; color: #888;">斯坦福传播学博士，擅长数字叙事与品牌内容策略。</p>
                                                     </div>
@@ -1428,12 +1565,10 @@
                                             <div class="mil-expert-card-flip mil-mb-20">
                                                 <div class="mil-flip-inner">
                                                     <div class="mil-flip-front">
-                                                        <div style="background: #f0f0f0; height: 240px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                                            <span style="font-size: 42px; color: #999;">4</span>
-                                                        </div>
+                                                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=500&fit=crop" alt="专家头像" style="width: 100%; height: 240px; object-fit: cover; border-radius: 8px;">
                                                     </div>
                                                     <div class="mil-flip-back">
-                                                        <h5 style="margin-bottom: 8px;">专家 4</h5>
+                                                        <h5 style="margin-bottom: 8px;">Priya Patel</h5>
                                                         <p style="font-size: 13px; color: #666; margin-bottom: 12px;">用户体验专家</p>
                                                         <p style="font-size: 12px; line-height: 1.5; color: #888;">MIT媒体实验室研究员，专注于AI驱动的交互设计。</p>
                                                     </div>
@@ -1449,12 +1584,10 @@
                                             <div class="mil-expert-card-flip mil-mb-20">
                                                 <div class="mil-flip-inner">
                                                     <div class="mil-flip-front">
-                                                        <div style="background: #f0f0f0; height: 240px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                                            <span style="font-size: 42px; color: #999;">5</span>
-                                                        </div>
+                                                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop" alt="专家头像" style="width: 100%; height: 240px; object-fit: cover; border-radius: 8px;">
                                                     </div>
                                                     <div class="mil-flip-back">
-                                                        <h5 style="margin-bottom: 8px;">专家 5</h5>
+                                                        <h5 style="margin-bottom: 8px;">Alexander Novak</h5>
                                                         <p style="font-size: 13px; color: #666; margin-bottom: 12px;">创意总监</p>
                                                         <p style="font-size: 12px; line-height: 1.5; color: #888;">皇家艺术学院毕业，多次获得国际设计大奖。</p>
                                                     </div>
@@ -1464,12 +1597,10 @@
                                             <div class="mil-expert-card-flip mil-mb-20">
                                                 <div class="mil-flip-inner">
                                                     <div class="mil-flip-front">
-                                                        <div style="background: #f0f0f0; height: 240px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                                            <span style="font-size: 42px; color: #999;">6</span>
-                                                        </div>
+                                                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=500&fit=crop" alt="专家头像" style="width: 100%; height: 240px; object-fit: cover; border-radius: 8px;">
                                                     </div>
                                                     <div class="mil-flip-back">
-                                                        <h5 style="margin-bottom: 8px;">专家 6</h5>
+                                                        <h5 style="margin-bottom: 8px;">Lisa Kim</h5>
                                                         <p style="font-size: 13px; color: #666; margin-bottom: 12px;">数据分析师</p>
                                                         <p style="font-size: 12px; line-height: 1.5; color: #888;">哥伦比亚大学数据科学硕士，精通品牌数据洞察。</p>
                                                     </div>
@@ -1479,12 +1610,10 @@
                                             <div class="mil-expert-card-flip mil-mb-20">
                                                 <div class="mil-flip-inner">
                                                     <div class="mil-flip-front">
-                                                        <div style="background: #f0f0f0; height: 240px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                                            <span style="font-size: 42px; color: #999;">7</span>
-                                                        </div>
+                                                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=500&fit=crop" alt="专家头像" style="width: 100%; height: 240px; object-fit: cover; border-radius: 8px;">
                                                     </div>
                                                     <div class="mil-flip-back">
-                                                        <h5 style="margin-bottom: 8px;">专家 7</h5>
+                                                        <h5 style="margin-bottom: 8px;">Jack Thompson</h5>
                                                         <p style="font-size: 13px; color: #666; margin-bottom: 12px;">社交媒体策略师</p>
                                                         <p style="font-size: 12px; line-height: 1.5; color: #888;">NYU整合营销传播硕士，专注全球社媒策略。</p>
                                                     </div>
@@ -1494,12 +1623,10 @@
                                             <div class="mil-expert-card-flip mil-mb-20">
                                                 <div class="mil-flip-inner">
                                                     <div class="mil-flip-front">
-                                                        <div style="background: #f0f0f0; height: 240px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                                            <span style="font-size: 42px; color: #999;">8</span>
-                                                        </div>
+                                                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=500&fit=crop" alt="专家头像" style="width: 100%; height: 240px; object-fit: cover; border-radius: 8px;">
                                                     </div>
                                                     <div class="mil-flip-back">
-                                                        <h5 style="margin-bottom: 8px;">专家 8</h5>
+                                                        <h5 style="margin-bottom: 8px;">Zihan Wang</h5>
                                                         <p style="font-size: 13px; color: #666; margin-bottom: 12px;">文化研究顾问</p>
                                                         <p style="font-size: 12px; line-height: 1.5; color: #888;">清华大学社会学博士，深谙东西方文化差异。</p>
                                                     </div>
@@ -1515,12 +1642,10 @@
                                             <div class="mil-expert-card-flip mil-mb-20">
                                                 <div class="mil-flip-inner">
                                                     <div class="mil-flip-front">
-                                                        <div style="background: #f0f0f0; height: 240px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                                            <span style="font-size: 42px; color: #999;">9</span>
-                                                        </div>
+                                                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=500&fit=crop" alt="专家头像" style="width: 100%; height: 240px; object-fit: cover; border-radius: 8px;">
                                                     </div>
                                                     <div class="mil-flip-back">
-                                                        <h5 style="margin-bottom: 8px;">专家 9</h5>
+                                                        <h5 style="margin-bottom: 8px;">Rajesh Sharma</h5>
                                                         <p style="font-size: 13px; color: #666; margin-bottom: 12px;">技术架构师</p>
                                                         <p style="font-size: 12px; line-height: 1.5; color: #888;">卡内基梅隆计算机硕士，擅长AI内容生成系统。</p>
                                                     </div>
@@ -1530,12 +1655,10 @@
                                             <div class="mil-expert-card-flip mil-mb-20">
                                                 <div class="mil-flip-inner">
                                                     <div class="mil-flip-front">
-                                                        <div style="background: #f0f0f0; height: 240px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                                            <span style="font-size: 42px; color: #999;">10</span>
-                                                        </div>
+                                                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=500&fit=crop" alt="专家头像" style="width: 100%; height: 240px; object-fit: cover; border-radius: 8px;">
                                                     </div>
                                                     <div class="mil-flip-back">
-                                                        <h5 style="margin-bottom: 8px;">专家 10</h5>
+                                                        <h5 style="margin-bottom: 8px;">David Miller</h5>
                                                         <p style="font-size: 13px; color: #666; margin-bottom: 12px;">品牌心理学家</p>
                                                         <p style="font-size: 12px; line-height: 1.5; color: #888;">哈佛心理学博士，研究消费者行为与品牌认知。</p>
                                                     </div>
@@ -1545,12 +1668,10 @@
                                             <div class="mil-expert-card-flip mil-mb-20">
                                                 <div class="mil-flip-inner">
                                                     <div class="mil-flip-front">
-                                                        <div style="background: #f0f0f0; height: 240px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                                            <span style="font-size: 42px; color: #999;">11</span>
-                                                        </div>
+                                                        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=500&fit=crop" alt="专家头像" style="width: 100%; height: 240px; object-fit: cover; border-radius: 8px;">
                                                     </div>
                                                     <div class="mil-flip-back">
-                                                        <h5 style="margin-bottom: 8px;">专家 11</h5>
+                                                        <h5 style="margin-bottom: 8px;">Isabella Sanchez</h5>
                                                         <p style="font-size: 13px; color: #666; margin-bottom: 12px;">多语言内容总监</p>
                                                         <p style="font-size: 12px; line-height: 1.5; color: #888;">牛津大学语言学硕士，精通8国语言内容本地化。</p>
                                                     </div>
@@ -1560,12 +1681,10 @@
                                             <div class="mil-expert-card-flip mil-mb-20">
                                                 <div class="mil-flip-inner">
                                                     <div class="mil-flip-front">
-                                                        <div style="background: #f0f0f0; height: 240px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                                            <span style="font-size: 42px; color: #999;">12</span>
-                                                        </div>
+                                                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=500&fit=crop" alt="专家头像" style="width: 100%; height: 240px; object-fit: cover; border-radius: 8px;">
                                                     </div>
                                                     <div class="mil-flip-back">
-                                                        <h5 style="margin-bottom: 8px;">专家 12</h5>
+                                                        <h5 style="margin-bottom: 8px;">Michael Zhang</h5>
                                                         <p style="font-size: 13px; color: #666; margin-bottom: 12px;">行业趋势分析师</p>
                                                         <p style="font-size: 12px; line-height: 1.5; color: #888;">沃顿商学院MBA，专注全球市场趋势预测。</p>
                                                     </div>
@@ -1630,42 +1749,42 @@
                         <div class="row">
                             <div class="col-lg-4">
 
-                                <div class="mil-service-card-lg mil-other-card mil-more mil-mb-30">
+                                <div class="mil-service-card-lg mil-other-card mil-more mil-mb-30 open-email-modal" style="cursor: pointer;">
                                     <h4 class="mil-up mil-mb-30">基础版</h4>
-                                    <p class="mil-descr mil-up mil-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                                    <p class="mil-descr mil-up mil-mb-30">快速试用方案,低成本试水品牌话语权内容AI系统,建立专业的数字化"门面"</p>
                                     <ul class="mil-service-list mil-dark mil-mb-30">
-                                        <li class="mil-up">UX Audits</li>
-                                        <li class="mil-up">Design thinking</li>
-                                        <li class="mil-up">Methodologies</li>
-                                        <li class="mil-up">Wireframing</li>
+                                        <li class="mil-up">全域舆情侦测 (基础版)</li>
+                                        <li class="mil-up">行业趋势洞察 (6篇/半年)</li>
+                                        <li class="mil-up">数字化官网托管</li>
+                                        <li class="mil-up">基础传播套件</li>
                                     </ul>
                                 </div>
 
                             </div>
                             <div class="col-lg-4">
 
-                                <div class="mil-service-card-lg mil-other-card mil-more mil-mb-30">
+                                <div class="mil-service-card-lg mil-other-card mil-more mil-mb-30 open-email-modal" style="cursor: pointer;">
                                     <h4 class="mil-up mil-mb-30">专业版</h4>
-                                    <p class="mil-descr mil-up mil-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                                    <p class="mil-descr mil-up mil-mb-30">主力方案，不仅获取洞察，更掌握原始数据与全渠道传播能力，获取高价值线索</p>
                                     <ul class="mil-service-list mil-dark mil-mb-30">
-                                        <li class="mil-up">UX Audits</li>
-                                        <li class="mil-up">Design thinking</li>
-                                        <li class="mil-up">Methodologies</li>
-                                        <li class="mil-up">Wireframing</li>
+                                        <li class="mil-up">全域舆情侦测 (标准版)</li>
+                                        <li class="mil-up">行业趋势报告 (24篇/年)</li>
+                                        <li class="mil-up">高意向客资线索获取</li>
+                                        <li class="mil-up">全场景分发套件</li>
                                     </ul>
                                 </div>
 
                             </div>
                             <div class="col-lg-4">
 
-                                <div class="mil-service-card-lg mil-other-card mil-more mil-mb-30">
+                                <div class="mil-service-card-lg mil-other-card mil-more mil-mb-30 open-email-modal" style="cursor: pointer;">
                                     <h4 class="mil-up mil-mb-30">专家版</h4>
-                                    <p class="mil-descr mil-up mil-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                                    <p class="mil-descr mil-up mil-mb-30">行业领军者。在专业版基础上，增加顶级专家背书与战略咨询，确立行业定义者地位。</p>
                                     <ul class="mil-service-list mil-dark mil-mb-30">
-                                        <li class="mil-up">UX Audits</li>
-                                        <li class="mil-up">Design thinking</li>
-                                        <li class="mil-up">Methodologies</li>
-                                        <li class="mil-up">Wireframing</li>
+                                        <li class="mil-up">年度行业白皮书 (联合发布)</li>
+                                        <li class="mil-up">专家署名行业报告（24篇/年）</li>
+                                        <li class="mil-up">定制化战略咨询 Workshop</li>
+                                        <li class="mil-up">专属设计咨询师</li>
                                     </ul>
                                 </div>
 
@@ -1806,6 +1925,46 @@
         <!-- content -->
     </div>
     <!-- wrapper end -->
+
+    <!-- Email Modal -->
+    <div id="emailModal" class="mil-email-modal" style="display: none;">
+        <div class="mil-modal-overlay"></div>
+        <div class="mil-modal-content">
+            <button class="mil-modal-close" aria-label="关闭">&times;</button>
+            <div class="mil-modal-body">
+                <h3 class="mil-mb-30">预约演示</h3>
+                <p class="mil-mb-30" style="opacity: 0.8;">请留下您的邮箱,我们将尽快与您联系,为您展示如何通过AI驱动的内容系统建立品牌话语权。</p>
+                <form id="emailForm" class="mil-email-form">
+                    <div class="mil-form-group mil-mb-30">
+                        <input
+                            type="email"
+                            id="userEmail"
+                            name="email"
+                            placeholder="请输入您的邮箱"
+                            required
+                            class="mil-input"
+                        >
+                        <div class="mil-error-message" id="emailError" style="display: none;">请输入有效的邮箱地址</div>
+                    </div>
+                    <button type="submit" class="mil-button mil-arrow-place" style="width: 100%;">
+                        <span id="submitText">提交</span>
+                        <span id="submitLoading" style="display: none;">提交中...</span>
+                    </button>
+                </form>
+                <div id="successMessage" class="mil-success-message" style="display: none;">
+                    <div style="text-align: center; padding: 40px 20px;">
+                        <svg width="60" height="60" viewBox="0 0 60 60" style="margin-bottom: 20px;">
+                            <circle cx="30" cy="30" r="28" fill="#4CAF50"/>
+                            <path d="M20 30 L26 36 L40 22" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <h4 class="mil-mb-15">提交成功!</h4>
+                        <p style="opacity: 0.8;">感谢您的关注,我们会尽快通过邮件与您联系。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Email Modal End -->
 
     <!-- jQuery js -->
     <script src="js/plugins/jquery.min.js"></script>

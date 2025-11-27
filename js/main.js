@@ -1106,3 +1106,140 @@ $(function () {
     });
 
 });
+
+/* -------------------------------------------
+Email Modal Functionality
+------------------------------------------- */
+(function() {
+    'use strict';
+
+    const modal = document.getElementById('emailModal');
+    const emailForm = document.getElementById('emailForm');
+    const emailInput = document.getElementById('userEmail');
+    const emailError = document.getElementById('emailError');
+    const submitText = document.getElementById('submitText');
+    const submitLoading = document.getElementById('submitLoading');
+    const successMessage = document.getElementById('successMessage');
+    const modalBody = emailForm ? emailForm.parentElement : null;
+
+    // Open modal
+    function openModal() {
+        if (modal) {
+            modal.style.display = 'flex';
+            document.body.classList.add('modal-open');
+            // Reset form
+            if (emailForm) {
+                emailForm.reset();
+                emailForm.style.display = 'block';
+            }
+            if (successMessage) {
+                successMessage.style.display = 'none';
+            }
+            if (emailError) {
+                emailError.style.display = 'none';
+            }
+        }
+    }
+
+    // Close modal
+    function closeModal() {
+        if (modal) {
+            modal.style.display = 'none';
+            document.body.classList.remove('modal-open');
+        }
+    }
+
+    // Email validation
+    function isValidEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+    }
+
+    // Bind open modal events
+    document.addEventListener('click', function(e) {
+        if (e.target.closest('.open-email-modal')) {
+            e.preventDefault();
+            openModal();
+        }
+    });
+
+    // Close modal on overlay click
+    if (modal) {
+        modal.querySelector('.mil-modal-overlay').addEventListener('click', closeModal);
+        modal.querySelector('.mil-modal-close').addEventListener('click', closeModal);
+    }
+
+    // Close modal on ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && modal && modal.style.display === 'flex') {
+            closeModal();
+        }
+    });
+
+    // Handle form submission
+    if (emailForm) {
+        emailForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const email = emailInput.value.trim();
+
+            // Validate email
+            if (!isValidEmail(email)) {
+                emailError.style.display = 'block';
+                emailInput.focus();
+                return;
+            }
+
+            emailError.style.display = 'none';
+
+            // Show loading state
+            submitText.style.display = 'none';
+            submitLoading.style.display = 'inline';
+            emailForm.querySelector('button[type="submit"]').disabled = true;
+
+            // Submit to Formspree
+            fetch('https://formspree.io/f/meobeppq', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    email: email,
+                    _subject: '新的演示预约请求 - UTOO DESIGN'
+                })
+            })
+            .then(response => {
+                if (response.ok) {
+                    // Show success message
+                    emailForm.style.display = 'none';
+                    successMessage.style.display = 'block';
+
+                    // Auto close after 3 seconds
+                    setTimeout(function() {
+                        closeModal();
+                    }, 3000);
+                } else {
+                    throw new Error('提交失败');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('提交失败，请稍后重试或直接发送邮件至 contact@utoodesign.com');
+            })
+            .finally(function() {
+                // Reset loading state
+                submitText.style.display = 'inline';
+                submitLoading.style.display = 'none';
+                emailForm.querySelector('button[type="submit"]').disabled = false;
+            });
+        });
+
+        // Clear error on input
+        emailInput.addEventListener('input', function() {
+            if (emailError.style.display === 'block') {
+                emailError.style.display = 'none';
+            }
+        });
+    }
+
+})();
