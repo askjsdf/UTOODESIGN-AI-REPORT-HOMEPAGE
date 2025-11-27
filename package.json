@@ -1,0 +1,21 @@
+{
+  "name": "utoo-design-website",
+  "version": "1.0.0",
+  "description": "UTOO DESIGN - Brand Authority AI Interactive Website",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "brand-authority",
+    "ai",
+    "design",
+    "website"
+  ],
+  "author": "UTOO DESIGN",
+  "license": "MIT"
+}
